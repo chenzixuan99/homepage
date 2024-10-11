@@ -43,6 +43,14 @@ redirect_from:
 Cognition-Action Architecture</a>.   
     <em>In: AAMAS 2024.</em>  
     <a href="https://www.ifaamas.org/Proceedings/aamas2024/pdfs/p2204.pdf">PDF</a></li>
+  <li><strong>Zixuan Chen</strong>, Wenbin Li, Yang Gao, Yiyu Chen.  
+    <a href="https://www.ifaamas.org/Proceedings/aamas2023/pdfs/p2421.pdf">TiLD: Third-person Imitation Learning by Estimating Domain Cognitive Differences of Visual Demonstrations</a>.   
+    <em>In: AAMAS 2023.</em>  
+    <a href="https://www.ifaamas.org/Proceedings/aamas2023/pdfs/p2421.pdf">PDF</a></li>
+  <li><strong>Zixuan Chen*</strong>, Zhirui Zhu, Guang Yang, Yang Gao.  
+    <a href="https://link.springer.com/chapter/10.1007/978-3-031-20868-3_6">HiSA: Facilitating Efficient Multi-Agent Coordination and Cooperation by Hierarchical Policy with Shared Attention</a>.   
+    <em>In: PRICAI 2022.</em>  
+  </li>
 </ul>
 
 <h2 id="honors-and-awards">🎖 Honors and Awards</h2>
