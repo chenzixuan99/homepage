@@ -51,11 +51,11 @@ Cognition-Action Architecture</a>.
     <a href="https://link.springer.com/chapter/10.1007/978-3-031-20868-3_6">HiSA: Facilitating Efficient Multi-Agent Coordination and Cooperation by Hierarchical Policy with Shared Attention</a>.   
     <em>In: PRICAI 2022.</em>  
   </li>
-  <li><strong>Zixuan Chen*</strong>, Zongzhang Zhang.  
+  <li><strong>Zixuan Chen</strong>, Zongzhang Zhang.  
     <a href="https://link.springer.com/chapter/10.1007/978-3-030-30487-4_46">Deep Recurrent Policy Networks for Planning Under Partial Observability</a>.   
     <em>In: ICANN 2019.</em>  
   </li>
-  <li><strong>Zixuan Chen*</strong>, Zongzhang Zhang, Zhiyuan Pan, Linjing Zhang.  
+  <li><strong>Zixuan Chen</strong>, Zongzhang Zhang, Zhiyuan Pan, Linjing Zhang.  
     <a href="https://www.jos.org.cn/josen/article/abstract/6077">Planning Network Model Based on Generalized Asynchronous Value Iteration
 (in Chinese)</a>.   
     <em>In: Journal of Software(软件学报) 2021.</em>  
