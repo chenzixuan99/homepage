@@ -24,7 +24,6 @@ redirect_from:
 <ul>
     <li><strong>2024.09</strong>: 🎉🎉 One paper on <a href="https://arxiv.org/abs/2409.20154">Generalized 3D Manipulation</a> is released. <a href="https://gravmad.github.io/">Project</a></li>
     <li><strong>2024.09</strong>: 🎉🎉 One paper on <a href="https://openreview.net/forum?id=RnxJc4vTVi&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2024%2FConference%2FAuthors%23your-submissions)">Skill Chaining for Long-horizon Manipulation</a> is accepted to <a href="https://neurips.cc/">NeurIPS 2024</a>.</li>
-    <!-- More news -->
 </ul>
 
 <h2 id="publications">📝 Publications</h2>
@@ -33,7 +32,6 @@ redirect_from:
     <a href="https://arxiv.org/pdf/2407.17418">3D Gaussian Splatting: Survey, Technologies, Challenges, and Opportunities</a>.   
     <em>In: arXiv:2407.17418.</em>  
     <a href="https://github.com/qqqqqqy0227/awesome-3DGS">Project</a></li>
-    <!-- Continue listing publications -->
 </ul>
 
 <h2 id="honors-and-awards">🎖 Honors and Awards</h2>
