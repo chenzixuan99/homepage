@@ -18,16 +18,14 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 
-I'm currently a PhD student of the Department of Computer Science and Technology in [Nanjing University](http://www.nju.edu.cn/) and a member of [R&L Group](https://cs.nju.edu.cn/rl/index.htm), led by professor [Yang Gao](https://cs.nju.edu.cn/gaoyang/index.htm) and [Jing Huo](https://cs.nju.edu.cn/huojing/index.htm). I received my Bachelor degree in June 2017 from [Soochow University of China](https://www.suda.edu.cn/) and Master degree in June 2020 from [Soochow University of China](https://www.suda.edu.cn/) adversed by professor [Zongzhang Zhang](https://ai.nju.edu.cn/zhangzongzhang/index.htm).
+I am currently a PhD student of the Department of Computer Science and Technology in [Nanjing University](http://www.nju.edu.cn/) and a member of [R&L Group](https://cs.nju.edu.cn/rl/index.htm), led by Professor [Yang Gao](https://cs.nju.edu.cn/gaoyang/index.htm) and [Jing Huo](https://cs.nju.edu.cn/huojing/index.htm). I received my Bachelor's degree in June 2017 and my Master's degree in June 2020, both from [Soochow University](https://www.suda.edu.cn/), under the supervision of Professor [Zongzhang Zhang](https://ai.nju.edu.cn/zhangzongzhang/index.htm). From November 2024, I will begin a one-year visiting at the [National University of Singapore](https://www.nus.edu.sg/) under the supervision of Professor [Lin Shao](https://linsats.github.io/).
 
-My research interest includes computer vision and computer graphics. Particularly in **Few-Shot Semantic Segmentation**, **Multimodal Perception** **3D Gaussian Splatting** and **Neural Radiance Fields** 
-
+My research interest includes robot learning, reinforcement learning and imitation learning. Specifically, I am interested in two robot learning problems: 1) How to leverage prior knowledge to enhance a robot's capability in long-horizon tasks. 2）How to enable a robot to possess highly generalizable spatial intelligence in 3D environments.
 
 
 # 🔥 News
-- *2024.09*: &nbsp;🎉🎉 I was invited to become reviewers in ICLR 2025, AISTATS 2025, ICASSP 2025, WACV 2025.
-- *2024.07*: &nbsp;🎉🎉 [**3D Gaussian Splatting: Survey, Technologies, Challenges, and Opportunities**](https://arxiv.org/pdf/2407.17418) is released. [**Project**](https://github.com/qqqqqqy0227/awesome-3DGS)
-- *2024.05*: &nbsp;🎉🎉 One paper on [**Zero-Shot Video Editing**](https://arxiv.org/pdf/2406.04888) is released.
+- *2024.09*: &nbsp;🎉🎉 One paper on [**Generalized 3D Manipulation**](https://arxiv.org/abs/2409.20154) is released.[**Project**](https://gravmad.github.io/)
+- *2024.09*: &nbsp;🎉🎉 One paper on [**Skill Chaining for Long-horizon Manipulation**](https://openreview.net/pdf?id=RnxJc4vTVi) is accepted to [NeurIPS 2024](https://neurips.cc/).
 - *2024.04*: &nbsp;🎉🎉 One paper on [**Few-Shot Semantic Segmentation**](https://ieeexplore.ieee.org/abstract/document/9440451/) selected as an ESI Highly Cited Paper.
 - *2024.04*: &nbsp;🎉🎉 One paper on [**Multimodal Perception**](https://ieeexplore.ieee.org/abstract/document/9493207/) selected as an ESI Highly Cited Paper.
 - *2024.01*: &nbsp;🎉🎉 One paper on [**Neural Radiance Fields (NeRF)**](https://openreview.net/forum?id=aHmNpLlUlb) is accepted to [ICLR 2024](https://iclr.cc/Conferences/2024).
