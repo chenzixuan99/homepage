@@ -90,7 +90,7 @@ Value</a>.
 
 <h2 id="services">💼 Services</h2>
 <ul>
-    <li><Reviewer for ICLR, ICRA, TNNLS, PRCV, etc.</li>
+    <li>Reviewer for ICLR, ICRA, TNNLS, PRCV, etc.</li>
 </ul>
 
 <h2 id="invited-talks">💬 Invited Talks</h2>
