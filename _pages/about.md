@@ -37,16 +37,16 @@ redirect_from:
     <li><strong>Zixuan Chen</strong>, Ze Ji, Jing Huo Yang Gao.  
     <a href="https://openreview.net/forum?id=RnxJc4vTVi&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2024%2FConference%2FAuthors%23your-submissions)">SCaR: Refining Skill Chaining for Long-Horizon Robotic Manipulation via Dual Regularization</a>.   
     <em>In: NeurIPS 2024.</em>  
-    <a href="https://openreview.net/forum?id=RnxJc4vTVi&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2024%2FConference%2FAuthors%23your-submissions)">PDF</a></li>
+    </li>
   <li><strong>Zixuan Chen</strong>, Ze Ji, Shuyang Liu, Jing Huo, Yiyu Chen, Yang Gao.  
     <a href="https://www.ifaamas.org/Proceedings/aamas2024/pdfs/p2204.pdf">Cognizing and Imitating Robotic Skills via a Dual
 Cognition-Action Architecture</a>.   
     <em>In: AAMAS 2024.</em>  
-    <a href="https://www.ifaamas.org/Proceedings/aamas2024/pdfs/p2204.pdf">PDF</a></li>
+    </li>
   <li><strong>Zixuan Chen</strong>, Wenbin Li, Yang Gao, Yiyu Chen.  
     <a href="https://www.ifaamas.org/Proceedings/aamas2023/pdfs/p2421.pdf">TiLD: Third-person Imitation Learning by Estimating Domain Cognitive Differences of Visual Demonstrations</a>.   
     <em>In: AAMAS 2023.</em>  
-    <a href="https://www.ifaamas.org/Proceedings/aamas2023/pdfs/p2421.pdf">PDF</a></li>
+    </li>
   <li><strong>Zixuan Chen*</strong>, Zhirui Zhu*, Guang Yang, Yang Gao.  
     <a href="https://link.springer.com/chapter/10.1007/978-3-031-20868-3_6">HiSA: Facilitating Efficient Multi-Agent Coordination and Cooperation by Hierarchical Policy with Shared Attention</a>.   
     <em>In: PRICAI 2022.</em>  
