@@ -25,7 +25,7 @@ My research interest includes robot learning, reinforcement learning and imitati
 
 # 🔥 News
 - *2024.09*: &nbsp;🎉🎉 One paper on [**Generalized 3D Manipulation**](https://arxiv.org/abs/2409.20154) is released. [**Project**](https://gravmad.github.io/)
-- *2024.09*: &nbsp;🎉🎉 One paper on [**Skill Chaining for Long-horizon Manipulation**](https://openreview.net/pdf?id=RnxJc4vTVi) is accepted to [NeurIPS 2024](https://neurips.cc/).
+- *2024.09*: &nbsp;🎉🎉 One paper on [**Skill Chaining for Long-horizon Manipulation**](https://openreview.net/forum?id=RnxJc4vTVi&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2024%2FConference%2FAuthors%23your-submissions)) is accepted to [NeurIPS 2024](https://neurips.cc/).
 - *2024.04*: &nbsp;🎉🎉 One paper on [**Few-Shot Semantic Segmentation**](https://ieeexplore.ieee.org/abstract/document/9440451/) selected as an ESI Highly Cited Paper.
 - *2024.04*: &nbsp;🎉🎉 One paper on [**Multimodal Perception**](https://ieeexplore.ieee.org/abstract/document/9493207/) selected as an ESI Highly Cited Paper.
 - *2024.01*: &nbsp;🎉🎉 One paper on [**Neural Radiance Fields (NeRF)**](https://openreview.net/forum?id=aHmNpLlUlb) is accepted to [ICLR 2024](https://iclr.cc/Conferences/2024).
