@@ -103,4 +103,4 @@ _In: IEEE Transactions on Instrumentation and Measurement._
 - *2023.07*, CGCKD 2024, Xiamen, China. 
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2019.06 - 2019.10*, [NetEase Fuxi Lab](http://fuxi.netease.com/laboratory), China.
