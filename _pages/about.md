@@ -60,6 +60,18 @@ Cognition-Action Architecture</a>.
 (in Chinese)</a>.   
     <em>In: Journal of Software(软件学报) 2021.</em>  
   </li>
+  <li>Zhenxing Ge, Shangdong Yang, Pinzhuo Tian, <strong>Zixuan Chen</strong>, Yang Gao.  
+    <a href="https://ieeexplore.ieee.org/abstract/document/9999061/">Modeling Rationality: Toward Better Performance Against Unknown Agents in Sequential Games</a>.   
+    <em>In: IEEE Transactions on Cybernetics.</em>  
+  </li>
+  <li>Chong Jiang, Zongzhang Zhang, <strong>Zixuan Chen</strong>, Jiacheng Zhu, Junpeng Jiang.  
+    <a href="https://ojs.aaai.org/index.php/AAAI/article/view/7181">Third-Person Imitation Learning via Image Difference and Variational Discriminator Bottleneck</a>.   
+    <em>In: AAAI 2019.</em>  
+  </li>
+  <li>Zhiyuan Pan, Zongzhang Zhang, <strong>Zixuan Chen</strong>.  
+    <a href="https://link.springer.com/chapter/10.1007/978-3-030-04179-3_15">Asynchronous Value Iteration Network</a>.   
+    <em>In: ICONIP 2018.</em>  
+  </li>
 </ul>
 
 <h2 id="honors-and-awards">🎖 Honors and Awards</h2>
