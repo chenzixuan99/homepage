@@ -38,6 +38,11 @@ redirect_from:
     <a href="https://openreview.net/forum?id=RnxJc4vTVi&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2024%2FConference%2FAuthors%23your-submissions)">SCaR: Refining Skill Chaining for Long-Horizon Robotic Manipulation via Dual Regularization</a>.   
     <em>In: NeurIPS 2024.</em>  
     <a href="https://openreview.net/forum?id=RnxJc4vTVi&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2024%2FConference%2FAuthors%23your-submissions)">PDF</a></li>
+  <li><strong>Zixuan Chen</strong>, Ze Ji, Shuyang Liu, Jing Huo, Yiyu Chen, Yang Gao.  
+    <a href="https://www.ifaamas.org/Proceedings/aamas2024/pdfs/p2204.pdf">Cognizing and Imitating Robotic Skills via a Dual
+Cognition-Action Architecture</a>.   
+    <em>In: AAMAS 2024.</em>  
+    <a href="https://www.ifaamas.org/Proceedings/aamas2024/pdfs/p2204.pdf">PDF</a></li>
 </ul>
 
 <h2 id="honors-and-awards">🎖 Honors and Awards</h2>
