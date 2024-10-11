@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: "Zixuan Chen"
 excerpt: ""
 author_profile: true
 redirect_from: 
