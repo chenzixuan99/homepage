@@ -45,7 +45,7 @@ redirect_from:
     <li><strong>2018.10</strong> Soochow University Graduate Academic Scholarship, Second Prize</li>
     <li><strong>2019.10</strong> Soochow University Graduate Academic Scholarship, First Prize</li>
     <li><strong>2020.6</strong> Outstanding Graduate Student of Soochow University</li>
-    <li><strong>2022.10</strong> 202Nanjing University Graduate Talent Scholarship</li>
+    <li><strong>2022.10</strong> Nanjing University Graduate Talent Scholarship</li>
     <li><strong>2023.7</strong> 2023 China Scholarship Council - Visiting PhD Student</li>
 </ul>
 
