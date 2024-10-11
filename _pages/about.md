@@ -97,7 +97,11 @@ _In: IEEE Transactions on Instrumentation and Measurement._
 
 
 # 🎖 Honors and Awards
-- *2023.10* Scholarship in Nanjing University. 
+- **2018,10** Soochow University Graduate Academic Scholarship, Second Prize
+- **2019.10** Soochow University Graduate Academic Scholarship, First Prize
+- **2020.6** Outstanding Graduate Student of Soochow University
+- **2022.10** 202Nanjing University Graduate Talent Scholarship
+- **2023.7** 2023 China Scholarship Council - Visiting PhD Student
 
 # 💬 Invited Talks
 - *2023.07*, CGCKD 2024, Xiamen, China. 
