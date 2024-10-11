@@ -103,8 +103,8 @@ _In: IEEE Transactions on Instrumentation and Measurement._
 - **2022.10** 202Nanjing University Graduate Talent Scholarship
 - **2023.7** 2023 China Scholarship Council - Visiting PhD Student
 
-# 💬 Invited Talks
-- *2023.07*, CGCKD 2024, Xiamen, China. 
+%# 💬 Invited Talks
+%- *2023.07*, CGCKD 2024, Xiamen, China. 
 
 # 💻 Internships
 - *2019.06 - 2019.10*, [NetEase Fuxi Lab](http://fuxi.netease.com/laboratory), China.
