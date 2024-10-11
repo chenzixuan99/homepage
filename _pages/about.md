@@ -72,6 +72,11 @@ Cognition-Action Architecture</a>.
     <a href="https://link.springer.com/chapter/10.1007/978-3-030-04179-3_15">Asynchronous Value Iteration Network</a>.   
     <em>In: ICONIP 2018.</em>  
   </li>
+  <li>Shuyang Liu*, <strong>Zixuan Chen*</strong>, Shi Ge, Ji Wang, Changjie Fan, Yu Xiong, Runze Wu Yujing Hu, Ze Ji, Yang Gao.  
+    <a href="https://arxiv.org/pdf/2310.04821">Rethinking Baseline of Integrated Gradients from the Perspective of Shapley
+Value</a>.   
+    <em>In: arXiv:2310.04821.</em>  
+  </li>
 </ul>
 
 <h2 id="honors-and-awards">🎖 Honors and Awards</h2>
