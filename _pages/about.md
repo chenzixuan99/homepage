@@ -22,6 +22,8 @@ redirect_from:
 
 <h2 id="news">🔥 News</h2>
 <ul>
+    <li><strong>2025.01</strong>: 🎉🎉 Our <a href="https://arxiv.org/abs/2409.20154">GravMAD </a> is accepted to <a href="https://iclr.cc/">ICLR 2025</a>. <a href="https://gravmad.github.io/">Project</a></li>
+   <li><strong>2025.01</strong>: 🎉🎉 One paper on <a href="https://arxiv.org/abs/2501.06605">Robotic World Model for Long-horizon Manipulation</a> is released. 
     <li><strong>2024.09</strong>: 🎉🎉 One paper on <a href="https://arxiv.org/abs/2409.20154">Generalized 3D Manipulation</a> is released. <a href="https://gravmad.github.io/">Project</a></li>
     <li><strong>2024.09</strong>: 🎉🎉 One paper on <a href="https://openreview.net/forum?id=RnxJc4vTVi&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2024%2FConference%2FAuthors%23your-submissions)">Skill Chaining for Long-horizon Manipulation</a> is accepted to <a href="https://neurips.cc/">NeurIPS 2024</a>.</li>
   <li><strong>2023.12</strong>: 🎉🎉 One paper on <a href="https://www.ifaamas.org/Proceedings/aamas2024/pdfs/p2204.pdf">Imitation Learning for Long-horizon Manipulation</a> is accepted to <a href="https://www.ifaamas.org/Proceedings/aamas2024/">AAMAS 2024</a>.</li>
@@ -32,9 +34,12 @@ redirect_from:
 <ul>
     <li>Yangtao Chen*, <strong>Zixuan Chen*</strong>, Junhui Yin, Jing Huo, Pinzhuo Tian, Jieqi Shi, Yang Gao.  
     <a href="https://arxiv.org/abs/2409.20154">GravMAD: Grounded Spatial Value Maps Guided Action Diffusion for Generalized 3D Manipulation</a>.   
-    <em>In: arXiv:2409.20154.</em>  
+    <em>In: ICLR 2025.</em>  
     <a href="https://gravmad.github.io/">Project</a></li>
-    <li><strong>Zixuan Chen</strong>, Ze Ji, Jing Huo Yang Gao.  
+    <li><strong>Zixuan Chen</strong>, Jing Huo, Yangtao Chen, Yang Gao.  
+    <a href="https://arxiv.org/abs/2501.06605">RoboHorizon: An LLM-Assisted Multi-View World Model for Long-Horizon Robotic Manipulation</a>.   
+    <em>In: arXiv:2501.06605.</em> 
+    <li><strong>Zixuan Chen</strong>, Ze Ji, Jing Huo, Yang Gao.  
     <a href="https://openreview.net/forum?id=RnxJc4vTVi&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2024%2FConference%2FAuthors%23your-submissions)">SCaR: Refining Skill Chaining for Long-Horizon Robotic Manipulation via Dual Regularization</a>.   
     <em>In: NeurIPS 2024.</em>  
     </li>
