@@ -34,11 +34,13 @@ redirect_from:
 <ul>
     <li>Yangtao Chen*, <strong>Zixuan Chen*</strong>, Junhui Yin, Jing Huo, Pinzhuo Tian, Jieqi Shi, Yang Gao.  
     <a href="https://arxiv.org/abs/2409.20154">GravMAD: Grounded Spatial Value Maps Guided Action Diffusion for Generalized 3D Manipulation</a>.   
-    <em>In: ICLR 2025.</em>  
+    <em>In: ICLR 2025.</em>
+    </li>
     <a href="https://gravmad.github.io/">Project</a></li>
     <li><strong>Zixuan Chen</strong>, Jing Huo, Yangtao Chen, Yang Gao.  
     <a href="https://arxiv.org/abs/2501.06605">RoboHorizon: An LLM-Assisted Multi-View World Model for Long-Horizon Robotic Manipulation</a>.   
-    <em>In: arXiv:2501.06605.</em> 
+    <em>In: arXiv:2501.06605.</em>
+    </li>
     <li><strong>Zixuan Chen</strong>, Ze Ji, Jing Huo, Yang Gao.  
     <a href="https://openreview.net/forum?id=RnxJc4vTVi&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2024%2FConference%2FAuthors%23your-submissions)">SCaR: Refining Skill Chaining for Long-Horizon Robotic Manipulation via Dual Regularization</a>.   
     <em>In: NeurIPS 2024.</em>  
