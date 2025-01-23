@@ -103,6 +103,7 @@ Value</a>.
 <h2 id="invited-talks">💬 Invited Talks</h2>
 <ul>
     <li><strong>2019.07</strong>, CCML 2019, Guiyang, China.</li>
+    <li><strong>2024.12</strong>, DAI 2024, Singapore.</li>
 </ul>
 
 <h2 id="internships">💻 Internships</h2>
