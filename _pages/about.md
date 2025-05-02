@@ -26,7 +26,7 @@ redirect_from:
   <li><strong>2025.01</strong>: 🎉🎉 Our <a href="https://arxiv.org/abs/2409.20154">GravMAD </a> is accepted to <a href="https://iclr.cc/">ICLR 2025</a>.</li>
   <li><strong>2025.01</strong>: One paper on <a href="https://arxiv.org/abs/2501.06605">Robotic World Model for Long-horizon Manipulation</a> is released.</li> 
   <li><strong>2024.09</strong>: One paper on <a href="https://arxiv.org/abs/2409.20154">Generalized 3D Manipulation</a> is released. <a href="https://gravmad.github.io/">Project Website.</a></li>
-  <li><strong>2024.09</strong>: 🎉🎉 One paper on <a href="https://openreview.net/forum?id=RnxJc4vTVi&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2024%2FConference%2FAuthors%23your-submissions)">Skill Chaining for Long-horizon Manipulation</a> is accepted to <a href="https://neurips.cc/">NeurIPS 2024</a>.</li>
+  <li><strong>2024.09</strong>: 🎉🎉 One paper on <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/ca92ff06d973ece92cecc561757d500e-Paper-Conference.pdf">Skill Chaining for Long-horizon Manipulation</a> is accepted to <a href="https://neurips.cc/">NeurIPS 2024</a>.</li>
   <li><strong>2023.12</strong>: 🎉🎉 One paper on <a href="https://www.ifaamas.org/Proceedings/aamas2024/pdfs/p2204.pdf">Imitation Learning for Long-horizon Manipulation</a> is accepted to <a href="https://www.ifaamas.org/Proceedings/aamas2024/">AAMAS 2024</a>.</li>
   <li><strong>2023.01</strong>: 🎉🎉 One paper on <a href="https://www.ifaamas.org/Proceedings/aamas2023/pdfs/p2421.pdf">Third-person Imitation Learning for Robotics</a> is accepted to <a href="https://aamas2023.soton.ac.uk/">AAMAS 2023</a>.</li>
 </ul>
