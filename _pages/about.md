@@ -22,7 +22,7 @@ redirect_from:
 
 <h2 id="news">🔥 News</h2>
 <ul>
-  <li><strong>2025.05</strong>: One paper on <a href="https://arxiv.org/abs/2505.00527">Task Decomposition and Skill Composition for Long-horizon Manipulation</a> is released. <a href="https://deco226.github.io/">Project Website.</a></li></li> 
+  <li><strong>2025.05</strong>: One paper on <a href="https://arxiv.org/abs/2505.00527">Task Decomposition and Skill Composition for Long-horizon Manipulation</a> is released. <a href="https://deco226.github.io/">Project Website.</a></li>
   <li><strong>2025.01</strong>: 🎉🎉 Our <a href="https://arxiv.org/abs/2409.20154">GravMAD </a> is accepted to <a href="https://iclr.cc/">ICLR 2025</a>.</li>
   <li><strong>2025.01</strong>: One paper on <a href="https://arxiv.org/abs/2501.06605">Robotic World Model for Long-horizon Manipulation</a> is released.</li> 
   <li><strong>2024.09</strong>: One paper on <a href="https://arxiv.org/abs/2409.20154">Generalized 3D Manipulation</a> is released. <a href="https://gravmad.github.io/">Project Website.</a></li>
@@ -102,7 +102,7 @@ Value</a>.
 
 <h2 id="services">💼 Services</h2>
 <ul>
-    <li>Reviewer for ICLR, ICRA, TNNLS, PRCV, etc.</li>
+    <li>Reviewer for NeurIPS, CoRL, ICLR, ICRA, TNNLS, IROS, PRCV, etc.</li>
 </ul>
 
 <h2 id="invited-talks">💬 Invited Talks</h2>
