@@ -47,7 +47,7 @@ redirect_from:
     <em>In: arXiv:2501.06605.</em>
     </li>
     <li><strong>Zixuan Chen</strong>, Ze Ji, Jing Huo, Yang Gao.  
-    <a href="https://openreview.net/forum?id=RnxJc4vTVi&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2024%2FConference%2FAuthors%23your-submissions)">SCaR: Refining Skill Chaining for Long-Horizon Robotic Manipulation via Dual Regularization</a>.   
+    <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/ca92ff06d973ece92cecc561757d500e-Paper-Conference.pdf">SCaR: Refining Skill Chaining for Long-Horizon Robotic Manipulation via Dual Regularization</a>.   
     <em>In: NeurIPS 2024.</em>  
     </li>
   <li><strong>Zixuan Chen</strong>, Ze Ji, Shuyang Liu, Jing Huo, Yiyu Chen, Yang Gao.  
