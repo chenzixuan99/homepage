@@ -22,6 +22,7 @@ redirect_from:
 
 <h2 id="news">🔥 News</h2>
 <ul>
+  <li><strong>2025.11</strong>: 🎉🎉 One paper on One-shot Imitation Learning for Long-horizon Manipulation</a> is accepted to <a href="https://aaai.org/conference/aaai/aaai-26/">AAAI 2026</a>.</li>
   <li><strong>2025.05</strong>: One paper on <a href="https://arxiv.org/abs/2505.00527">Task Decomposition and Skill Composition for Long-horizon Manipulation</a> is released. <a href="https://deco226.github.io/">Project Website.</a></li>
   <li><strong>2025.01</strong>: 🎉🎉 Our <a href="https://arxiv.org/abs/2409.20154">GravMAD </a> is accepted to <a href="https://iclr.cc/">ICLR 2025</a>.</li>
   <li><strong>2025.01</strong>: One paper on <a href="https://arxiv.org/abs/2501.06605">Robotic World Model for Long-horizon Manipulation</a> is released.</li> 
@@ -33,6 +34,10 @@ redirect_from:
 
 <h2 id="publications">📝 Publications</h2>
 <ul>
+    <li><strong>Zixuan Chen</strong>, Chongkai Gao, Lin Shao, Jieqi Shi, Jing Huo, Yang Gao.  
+    ManiLong-Shot: Interaction-Aware One-Shot Imitation Learning for Long-Horizon Manipulation</a>.   
+    <em>In: AAAI 2026.</em>  
+    </li>
     <li><strong>Zixuan Chen*</strong>, Junhui Yin*, Yangtao Chen, Jing Huo, Pinzhuo Tian, Jieqi Shi, Yiwen Hou, Yinchuan Li, Yang Gao.  
     <a href="https://arxiv.org/abs/2505.00527">DeCo: Task Decomposition and Skill Composition for Zero-Shot Generalization in Long-Horizon 3D Manipulation</a>.   
     <em>In:  arXiv:2505.00527.</em>
