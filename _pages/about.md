@@ -35,7 +35,7 @@ redirect_from:
 <h2 id="publications">📝 Publications</h2>
 <ul>
     <li><strong>Zixuan Chen</strong>, Chongkai Gao, Lin Shao, Jieqi Shi, Jing Huo, Yang Gao.  
-    ManiLong-Shot: Interaction-Aware One-Shot Imitation Learning for Long-Horizon Manipulation</a>.   
+    ManiLong-Shot: Interaction-Aware One-Shot Imitation Learning for Long-Horizon Manipulation.   
     <em>In: AAAI 2026.</em>  
     </li>
     <li><strong>Zixuan Chen*</strong>, Junhui Yin*, Yangtao Chen, Jing Huo, Pinzhuo Tian, Jieqi Shi, Yiwen Hou, Yinchuan Li, Yang Gao.  
