@@ -16,22 +16,18 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <style>
-/* --- 全局字体与排版设置 --- */
 body {
-  /* 使用系统默认无衬线字体，清晰现代 */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
-  font-size: 16px !important; /* 已回调至 16px，标准且清晰 */
+  font-size: 16px !important; 
   line-height: 1.6 !important;
-  color: #333; /* 稍微柔和一点的黑色 */
+  color: #333;
 }
 
-/* 针对正文段落和列表的字体强制覆盖 */
 p, li, a, div {
   font-family: inherit;
   font-size: inherit;
 }
 
-/* 标题样式微调 */
 h1, h2, h3, h4 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
   margin-top: 25px !important;
@@ -43,10 +39,9 @@ h1, h2, h3, h4 {
 h2 {
     border-bottom: 2px solid #f2f3f3;
     padding-bottom: 8px;
-    font-size: 1.4em !important; /* 标题大小也相应适配 */
+    font-size: 1.4em !important;
 }
 
-/* --- 隐藏顶部导航栏 --- */
 .masthead, .site-nav, .greedy-nav, .navigation {
   display: none !important;
 }
@@ -54,10 +49,9 @@ h2 {
   margin-top: 30px !important;
 }
 
-/* --- 按钮样式 --- */
 .btn-outline {
   display: inline-block;
-  padding: 3px 8px; /* 按钮稍微紧凑一点 */
+  padding: 3px 8px; 
   margin-right: 5px;
   margin-top: 5px;
   font-size: 12px !important;
@@ -79,7 +73,6 @@ h2 {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-/* --- 新闻区域 --- */
 .news-box {
   height: 220px;
   overflow-y: scroll; 
@@ -100,14 +93,14 @@ h2 {
   font-size: 0.85em !important;
 }
 
-/* --- 论文列表间距 --- */
+
 ul.pub-list li {
   margin-bottom: 20px !important;
 }
 
-/* --- 地图容器限制 --- */
+
 .map-container {
-    width: 250px; /* 地图再稍微改小一点点，更精致 */
+    width: 250px; 
     margin: 40px auto 20px auto;
     text-align: center;
 }
