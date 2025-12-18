@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Zixuan Chen（陈子璇）"
+  name             : "Zixuan Chen"
   avatar           : "images/android-chrome-512x512.png"
   bio              : "Nanjing University"
   location         : "Nanjing, China"
