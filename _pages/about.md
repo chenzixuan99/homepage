@@ -119,7 +119,7 @@ Hi! I am <strong>Zixuan Chen (陈子璇)</strong>. I am currently a Ph.D. Candid
 </p>
 
 <p>
-Previously, I received my B.E. and M.E. degrees from <a href="https://www.suda.edu.cn/">Soochow University</a>, under the supervision of Prof. <a href="https://ai.nju.edu.cn/zhangzongzhang/index.htm">Zongzhang Zhang</a>. From Nov. 2024 to Nov. 2025, I was a visiting student at the <a href="https://www.nus.edu.sg/">National University of Singapore (NUS)</a>, working with Prof. <a href="https://linsats.github.io/">Lin Shao</a>.
+Previously, I received my B.E. and M.E. degrees from <a href="https://www.suda.edu.cn/">Soochow University</a>, School of Computer Science and Technology, under the supervision of Prof. <a href="https://ai.nju.edu.cn/zhangzongzhang/index.htm">Zongzhang Zhang</a>. From Nov. 2024 to Nov. 2025, I was a visiting student at the <a href="https://www.nus.edu.sg/">National University of Singapore (NUS)</a>, working with Prof. <a href="https://linsats.github.io/">Lin Shao</a>.
 </p>
 
 <h3 id="research-interests">🔬 Research Interests</h3>
@@ -137,10 +137,10 @@ My research focuses on <strong>Robot Learning</strong>, <strong>Reinforcement Le
 <div class="news-box">
 <ul style="padding-left: 20px; margin-top: 0;">
   <li><span class="news-date">2025.11</span> 🎉 "ManiLong-Shot" is accepted to <strong>AAAI 2026</strong>.</li>
-  <li><span class="news-date">2025.10</span> Preprint "<a href="https://chenyt31.github.io/robo-himan.github.io/">RoboHiMan</a>" is released.</li>
-  <li><span class="news-date">2025.05</span> Preprint "<a href="https://arxiv.org/abs/2505.00527">DeCo: Task Decomposition and Skill Composition</a>" is released.</li>
+  <li><span class="news-date">2025.10</span> Preprint "<a href="https://chenyt31.github.io/robo-himan.github.io/">RoboHiMan</a>" (Compositional Generalization in Long-horizon Manipulation) is released.</li>
+  <li><span class="news-date">2025.05</span> Preprint "<a href="https://arxiv.org/abs/2505.00527">DeCo</a>"(Task Decomposition and Skill Composition for Long-horizon Manipulation) is released.</li>
   <li><span class="news-date">2025.01</span> 🎉 "GravMAD" is accepted to <strong>ICLR 2025</strong>.</li>
-  <li><span class="news-date">2025.01</span> Preprint "<a href="https://arxiv.org/abs/2501.06605">RoboHorizon</a>" (World Model for Manipulation) is released.</li> 
+  <li><span class="news-date">2025.01</span> Preprint "<a href="https://arxiv.org/abs/2501.06605">RoboHorizon</a>" (World Model for Long-horizon Manipulation) is released.</li> 
   <li><span class="news-date">2024.09</span> 🎉 "SCaR" (Skill Chaining) is accepted to <strong>NeurIPS 2024</strong>.</li>
   <li><span class="news-date">2023.12</span> 🎉 "Cognizing and Imitating Robotic Skills" is accepted to <strong>AAMAS 2024</strong>.</li>
   <li><span class="news-date">2023.01</span> 🎉 "TiLD" is accepted to <strong>AAMAS 2023</strong>.</li>
