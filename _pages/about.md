@@ -16,18 +16,22 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <style>
+/* --- 全局字体与排版设置 --- */
 body {
+  /* 使用系统默认无衬线字体，清晰现代 */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
-  font-size: 16px !important; 
+  font-size: 16px !important;
   line-height: 1.6 !important;
   color: #333;
 }
 
+/* 针对正文段落和列表的字体强制覆盖 */
 p, li, a, div {
   font-family: inherit;
   font-size: inherit;
 }
 
+/* 标题样式微调 */
 h1, h2, h3, h4 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
   margin-top: 25px !important;
@@ -42,6 +46,7 @@ h2 {
     font-size: 1.4em !important;
 }
 
+/* --- 隐藏顶部导航栏 --- */
 .masthead, .site-nav, .greedy-nav, .navigation {
   display: none !important;
 }
@@ -49,9 +54,10 @@ h2 {
   margin-top: 30px !important;
 }
 
+/* --- 按钮样式 --- */
 .btn-outline {
   display: inline-block;
-  padding: 3px 8px; 
+  padding: 3px 8px;
   margin-right: 5px;
   margin-top: 5px;
   font-size: 12px !important;
@@ -73,6 +79,7 @@ h2 {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
+/* --- 新闻区域 --- */
 .news-box {
   height: 220px;
   overflow-y: scroll; 
@@ -93,14 +100,14 @@ h2 {
   font-size: 0.85em !important;
 }
 
-
+/* --- 论文列表间距 --- */
 ul.pub-list li {
   margin-bottom: 20px !important;
 }
 
-
+/* --- 地图容器限制 --- */
 .map-container {
-    width: 250px; 
+    width: 250px;
     margin: 40px auto 20px auto;
     text-align: center;
 }
@@ -109,7 +116,7 @@ ul.pub-list li {
 <h2 id="about-me">About Me</h2>
 
 <p>
-I am currently a Ph.D. Candidate at the School of Computer Science and Technology, <a href="http://www.nju.edu.cn/">Nanjing University (NJU)</a>. I am a member of the <a href="https://cs.nju.edu.cn/rl/index.htm">R&L Group</a>, advised by Prof. <a href="https://cs.nju.edu.cn/gaoyang/index.htm">Yang Gao</a> and Assoc. Prof. <a href="https://cs.nju.edu.cn/huojing/index.htm">Jing Huo</a>. 
+Hi! I am <strong>Zixuan Chen (陈子璇)</strong>. I am currently a Ph.D. Candidate at the School of Computer Science and Technology, <a href="http://www.nju.edu.cn/">Nanjing University (NJU)</a>. I am a member of the <a href="https://cs.nju.edu.cn/rl/index.htm">R&L Group</a>, advised by Prof. <a href="https://cs.nju.edu.cn/gaoyang/index.htm">Yang Gao</a> and Assoc. Prof. <a href="https://cs.nju.edu.cn/huojing/index.htm">Jing Huo</a>. 
 </p>
 
 <p>
