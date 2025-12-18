@@ -18,7 +18,6 @@ redirect_from:
 <style>
 /* --- 全局字体与排版设置 --- */
 body {
-  /* 使用系统默认无衬线字体，清晰现代 */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
   font-size: 16px !important;
   line-height: 1.6 !important;
@@ -138,6 +137,7 @@ My research focuses on <strong>Robot Learning</strong>, <strong>Reinforcement Le
 <div class="news-box">
 <ul style="padding-left: 20px; margin-top: 0;">
   <li><span class="news-date">2025.11</span> 🎉 "ManiLong-Shot" is accepted to <strong>AAAI 2026</strong>.</li>
+  <li><span class="news-date">2025.10</span> Preprint "<a href="https://chenyt31.github.io/robo-himan.github.io/">RoboHiMan</a>" is released.</li>
   <li><span class="news-date">2025.05</span> Preprint "<a href="https://arxiv.org/abs/2505.00527">DeCo: Task Decomposition and Skill Composition</a>" is released.</li>
   <li><span class="news-date">2025.01</span> 🎉 "GravMAD" is accepted to <strong>ICLR 2025</strong>.</li>
   <li><span class="news-date">2025.01</span> Preprint "<a href="https://arxiv.org/abs/2501.06605">RoboHorizon</a>" (World Model for Manipulation) is released.</li> 
@@ -154,11 +154,20 @@ My research focuses on <strong>Robot Learning</strong>, <strong>Reinforcement Le
 <p style="font-size: 0.9em !important; color: #666;">(* equal contribution)</p>
 
 <ul class="pub-list">
-    <!-- Paper 1 -->
+
+    <!-- Paper 0 -->
     <li>
         <strong>ManiLong-Shot: Interaction-Aware One-Shot Imitation Learning for Long-Horizon Manipulation</strong><br>
         <strong>Zixuan Chen</strong>, Chongkai Gao, Lin Shao, Jieqi Shi, Jing Huo, Yang Gao.<br>
         <em>AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>)</em>, 2026.<br>
+    </li>
+
+    <!-- Paper 1  -->
+    <li>
+        <strong>RoboHiMan: A Hierarchical Evaluation Paradigm for Compositional Generalization in Long-Horizon Manipulation</strong><br>
+        Yangtao Chen*, <strong>Zixuan Chen*</strong>, Nga Teng Chan, Junting Chen, Junhui Yin, Jieqi Shi, Yang Gao, Yong-Lu Li, Jing Huo.<br>
+        <em>arXiv preprint arXiv:2510.13149</em>, 2025.<br>
+        <a href="https://chenyt31.github.io/robo-himan.github.io/" class="btn-outline">🌐 Website</a>
     </li>
 
     <!-- Paper 2 -->
@@ -209,29 +218,6 @@ My research focuses on <strong>Robot Learning</strong>, <strong>Reinforcement Le
         <strong>Zixuan Chen</strong>, Wenbin Li, Yang Gao, Yiyu Chen.<br>
         <em>International Conference on Autonomous Agents and Multiagent Systems (<strong>AAMAS</strong>)</em>, 2023.<br>
         <a href="https://www.ifaamas.org/Proceedings/aamas2023/pdfs/p2421.pdf" class="btn-outline">📄 PDF</a>
-    </li>
-
-    <!-- Paper 8 -->
-    <li>
-        <strong>HiSA: Facilitating Efficient Multi-Agent Coordination and Cooperation by Hierarchical Policy with Shared Attention</strong><br>
-        <strong>Zixuan Chen*</strong>, Zhirui Zhu*, Guang Yang, Yang Gao.<br>
-        <em>Pacific Rim International Conference on Artificial Intelligence (<strong>PRICAI</strong>)</em>, 2022.<br>
-        <a href="https://link.springer.com/chapter/10.1007/978-3-031-20868-3_6" class="btn-outline">📄 PDF</a>
-    </li>
-    
-    <!-- 早期论文 -->
-    <li>
-        <strong>Deep Recurrent Policy Networks for Planning Under Partial Observability</strong><br>
-        <strong>Zixuan Chen</strong>, Zongzhang Zhang.<br>
-        <em>International Conference on Artificial Neural Networks (<strong>ICANN</strong>)</em>, 2019.<br>
-        <a href="https://link.springer.com/chapter/10.1007/978-3-030-30487-4_46" class="btn-outline">📄 PDF</a>
-    </li>
-
-    <li>
-        <strong>Third-Person Imitation Learning via Image Difference and Variational Discriminator Bottleneck</strong><br>
-        Chong Jiang, Zongzhang Zhang, <strong>Zixuan Chen</strong>, Jiacheng Zhu, Junpeng Jiang.<br>
-        <em>AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>)</em>, 2019.<br>
-        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/7181" class="btn-outline">📄 PDF</a>
     </li>
 </ul>
 
