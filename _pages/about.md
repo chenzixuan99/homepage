@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "Zixuan Chen"
-excerpt: ""
+title: "Zixuan Chen (陈子璇)"
+excerpt: "Ph.D. Candidate at Nanjing University"
 author_profile: true
 redirect_from: 
   - /about/
@@ -15,108 +15,191 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
+<style>
+.btn-outline {
+  display: inline-block;
+  padding: 4px 8px;
+  margin-right: 5px;
+  margin-top: 5px;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #444;
+  background-color: #fff;
+  border: 1px solid #d1d5da;
+  border-radius: 6px;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+.btn-outline:hover {
+  background-color: #f3f4f6;
+  border-color: #1b1f23;
+  color: #000;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* 新闻日期样式 */
+.news-date {
+  font-family: 'Courier New', Courier, monospace;
+  color: #555;
+  font-weight: bold;
+  margin-right: 8px;
+  background-color: #f6f8fa;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+/* 论文列表间距优化 */
+ul.pub-list li {
+  margin-bottom: 20px; /* 增加论文之间的间距 */
+}
+</style>
+
 <h2 id="about-me">About Me</h2>
-<p>I am currently a PhD student of the School of Computer Science and Technology in <a href="http://www.nju.edu.cn/">Nanjing University</a> and a member of <a href="https://cs.nju.edu.cn/rl/index.htm">R&L Group</a>, led by Professor <a href="https://cs.nju.edu.cn/gaoyang/index.htm">Yang Gao</a> and <a href="https://cs.nju.edu.cn/huojing/index.htm">Jing Huo</a>. I received my Bachelor's degree and my Master's degree from <a href="https://www.suda.edu.cn/">Soochow University</a>, under the supervision of Professor <a href="https://ai.nju.edu.cn/zhangzongzhang/index.htm">Zongzhang Zhang</a>. From November 2024 to November 2025, I spent one year visiting at the <a href="https://www.nus.edu.sg/">National University of Singapore</a> under the supervision of Professor <a href="https://linsats.github.io/">Lin Shao</a>.
 
-<p>My research interest includes <strong>robot learning</strong>, <strong>reinforcement learning</strong> and <strong>imitation learning</strong>. Specifically, I am interested in two robot learning problems: 1) How to leverage prior knowledge to enhance a robot's capability in long-horizon tasks. 2) How to enable a robot to possess highly generalizable spatial intelligence in 3D environments.</p>
+<p>
+I am currently a Ph.D. Candidate at the School of Computer Science and Technology, <a href="http://www.nju.edu.cn/">Nanjing University (NJU)</a>. I am a member of the <a href="https://cs.nju.edu.cn/rl/index.htm">R&L Group</a>, advised by Prof. <a href="https://cs.nju.edu.cn/gaoyang/index.htm">Yang Gao</a> and Assoc. Prof. <a href="https://cs.nju.edu.cn/huojing/index.htm">Jing Huo</a>. 
+</p>
 
-<h2 id="news">🔥 News</h2>
+<p>
+Previously, I received my B.E. and M.E. degrees from <a href="https://www.suda.edu.cn/">Soochow University</a>, under the supervision of Prof. <a href="https://ai.nju.edu.cn/zhangzongzhang/index.htm">Zongzhang Zhang</a>. From Nov. 2024 to Nov. 2025, I was a visiting student at the <a href="https://www.nus.edu.sg/">National University of Singapore (NUS)</a>, working with Prof. <a href="https://linsats.github.io/">Lin Shao</a>.
+</p>
+
+<h3 id="research-interests">🔬 Research Interests</h3>
+<p>
+My research focuses on <strong>Robot Learning</strong>, <strong>Reinforcement Learning</strong>, and <strong>Imitation Learning</strong>. I am particularly interested in:
+</p>
 <ul>
-  <li><strong>2025.11</strong>: 🎉🎉 One paper on One-shot Imitation Learning for Long-horizon Manipulation is accepted to <a href="https://aaai.org/conference/aaai/aaai-26/">AAAI 2026</a>.</li>
-  <li><strong>2025.05</strong>: One paper on <a href="https://arxiv.org/abs/2505.00527">Task Decomposition and Skill Composition for Long-horizon Manipulation</a> is released. <a href="https://deco226.github.io/">Project Website.</a></li>
-  <li><strong>2025.01</strong>: 🎉🎉 Our <a href="https://arxiv.org/abs/2409.20154">GravMAD </a> is accepted to <a href="https://iclr.cc/">ICLR 2025</a>.</li>
-  <li><strong>2025.01</strong>: One paper on <a href="https://arxiv.org/abs/2501.06605">Robotic World Model for Long-horizon Manipulation</a> is released.</li> 
-  <li><strong>2024.09</strong>: One paper on <a href="https://arxiv.org/abs/2409.20154">Generalized 3D Manipulation</a> is released. <a href="https://gravmad.github.io/">Project Website.</a></li>
-  <li><strong>2024.09</strong>: 🎉🎉 One paper on <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/ca92ff06d973ece92cecc561757d500e-Paper-Conference.pdf">Skill Chaining for Long-horizon Manipulation</a> is accepted to <a href="https://neurips.cc/">NeurIPS 2024</a>.</li>
-  <li><strong>2023.12</strong>: 🎉🎉 One paper on <a href="https://www.ifaamas.org/Proceedings/aamas2024/pdfs/p2204.pdf">Imitation Learning for Long-horizon Manipulation</a> is accepted to <a href="https://www.ifaamas.org/Proceedings/aamas2024/">AAMAS 2024</a>.</li>
-  <li><strong>2023.01</strong>: 🎉🎉 One paper on <a href="https://www.ifaamas.org/Proceedings/aamas2023/pdfs/p2421.pdf">Third-person Imitation Learning for Robotics</a> is accepted to <a href="https://aamas2023.soton.ac.uk/">AAMAS 2023</a>.</li>
+    <li><strong>Long-horizon Manipulation:</strong> Leveraging prior knowledge (e.g., skill chaining, task decomposition) to solve complex, multi-stage tasks.</li>
+    <li><strong>Spatial Intelligence:</strong> Enabling robots to possess highly generalizable 3D spatial reasoning capabilities (e.g., 3D manipulation, world models).</li>
 </ul>
 
-<h2 id="publications">📝 Publications</h2>
-<ul>
-    <li><strong>Zixuan Chen</strong>, Chongkai Gao, Lin Shao, Jieqi Shi, Jing Huo, Yang Gao.  
-    ManiLong-Shot: Interaction-Aware One-Shot Imitation Learning for Long-Horizon Manipulation.   
-    <em>In: AAAI 2026.</em>  
+---
+
+<h2 id="news">🔥 News</h2>
+<div style="height: 220px; overflow-y: scroll; border: 1px solid #e1e4e8; padding: 15px; border-radius: 8px; background-color: #fafbfc; box-shadow: inset 0 0 5px rgba(0,0,0,0.02);">
+<ul style="padding-left: 20px; margin-top: 0;">
+  <li><span class="news-date">2025.11</span> 🎉 "ManiLong-Shot" is accepted to <strong>AAAI 2026</strong>.</li>
+  <li><span class="news-date">2025.05</span> Preprint "<a href="https://arxiv.org/abs/2505.00527">DeCo: Task Decomposition and Skill Composition</a>" is released.</li>
+  <li><span class="news-date">2025.01</span> 🎉 "GravMAD" is accepted to <strong>ICLR 2025</strong>.</li>
+  <li><span class="news-date">2025.01</span> Preprint "<a href="https://arxiv.org/abs/2501.06605">RoboHorizon</a>" (World Model for Manipulation) is released.</li> 
+  <li><span class="news-date">2024.09</span> 🎉 "SCaR" (Skill Chaining) is accepted to <strong>NeurIPS 2024</strong>.</li>
+  <li><span class="news-date">2023.12</span> 🎉 "Cognizing and Imitating Robotic Skills" is accepted to <strong>AAMAS 2024</strong>.</li>
+  <li><span class="news-date">2023.01</span> 🎉 "TiLD" is accepted to <strong>AAMAS 2023</strong>.</li>
+</ul>
+</div>
+
+---
+
+<h2 id="publications">📝 Selected Publications</h2>
+
+<p style="font-size: 0.9em; color: #666;">(* equal contribution)</p>
+
+<ul class="pub-list">
+    <!-- Paper 1 -->
+    <li>
+        <strong>ManiLong-Shot: Interaction-Aware One-Shot Imitation Learning for Long-Horizon Manipulation</strong><br>
+        <strong>Zixuan Chen</strong>, Chongkai Gao, Lin Shao, Jieqi Shi, Jing Huo, Yang Gao.<br>
+        <em>AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>)</em>, 2026.<br>
     </li>
-    <li><strong>Zixuan Chen*</strong>, Junhui Yin*, Yangtao Chen, Jing Huo, Pinzhuo Tian, Jieqi Shi, Yiwen Hou, Yinchuan Li, Yang Gao.  
-    <a href="https://arxiv.org/abs/2505.00527">DeCo: Task Decomposition and Skill Composition for Zero-Shot Generalization in Long-Horizon 3D Manipulation</a>.   
-    <em>In:  arXiv:2505.00527.</em>
+
+    <!-- Paper 2 -->
+    <li>
+        <strong>DeCo: Task Decomposition and Skill Composition for Zero-Shot Generalization in Long-Horizon 3D Manipulation</strong><br>
+        <strong>Zixuan Chen*</strong>, Junhui Yin*, Yangtao Chen, Jing Huo, Pinzhuo Tian, Jieqi Shi, Yiwen Hou, Yinchuan Li, Yang Gao.<br>
+        <em>arXiv preprint arXiv:2505.00527</em>, 2025.<br>
+        <a href="https://arxiv.org/abs/2505.00527" class="btn-outline">📄 PDF</a>
+        <a href="https://deco226.github.io/" class="btn-outline">🌐 Website</a>
     </li>
-    <li>Yangtao Chen*, <strong>Zixuan Chen*</strong>, Junhui Yin, Jing Huo, Pinzhuo Tian, Jieqi Shi, Yang Gao.  
-    <a href="https://arxiv.org/abs/2409.20154">GravMAD: Grounded Spatial Value Maps Guided Action Diffusion for Generalized 3D Manipulation</a>.   
-    <em>In: ICLR 2025.</em>
-    <a href="https://gravmad.github.io/">Project Website</a>
+
+    <!-- Paper 3 -->
+    <li>
+        <strong>GravMAD: Grounded Spatial Value Maps Guided Action Diffusion for Generalized 3D Manipulation</strong><br>
+        Yangtao Chen*, <strong>Zixuan Chen*</strong>, Junhui Yin, Jing Huo, Pinzhuo Tian, Jieqi Shi, Yang Gao.<br>
+        <em>International Conference on Learning Representations (<strong>ICLR</strong>)</em>, 2025.<br>
+        <a href="https://arxiv.org/abs/2409.20154" class="btn-outline">📄 PDF</a>
+        <a href="https://gravmad.github.io/" class="btn-outline">🌐 Website</a>
     </li>
-    <li><strong>Zixuan Chen</strong>, Jing Huo, Yangtao Chen, Yang Gao.  
-    <a href="https://arxiv.org/abs/2501.06605">RoboHorizon: An LLM-Assisted Multi-View World Model for Long-Horizon Robotic Manipulation</a>.   
-    <em>In: arXiv:2501.06605.</em>
+
+    <!-- Paper 4 -->
+    <li>
+        <strong>RoboHorizon: An LLM-Assisted Multi-View World Model for Long-Horizon Robotic Manipulation</strong><br>
+        <strong>Zixuan Chen</strong>, Jing Huo, Yangtao Chen, Yang Gao.<br>
+        <em>arXiv preprint arXiv:2501.06605</em>, 2025.<br>
+        <a href="https://arxiv.org/abs/2501.06605" class="btn-outline">📄 PDF</a>
     </li>
-    <li><strong>Zixuan Chen</strong>, Ze Ji, Jing Huo, Yang Gao.  
-    <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/ca92ff06d973ece92cecc561757d500e-Paper-Conference.pdf">SCaR: Refining Skill Chaining for Long-Horizon Robotic Manipulation via Dual Regularization</a>.   
-    <em>In: NeurIPS 2024.</em>  
+
+    <!-- Paper 5 -->
+    <li>
+        <strong>SCaR: Refining Skill Chaining for Long-Horizon Robotic Manipulation via Dual Regularization</strong><br>
+        <strong>Zixuan Chen</strong>, Ze Ji, Jing Huo, Yang Gao.<br>
+        <em>Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>)</em>, 2024.<br>
+        <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/ca92ff06d973ece92cecc561757d500e-Paper-Conference.pdf" class="btn-outline">📄 PDF</a>
     </li>
-  <li><strong>Zixuan Chen</strong>, Ze Ji, Shuyang Liu, Jing Huo, Yiyu Chen, Yang Gao.  
-    <a href="https://www.ifaamas.org/Proceedings/aamas2024/pdfs/p2204.pdf">Cognizing and Imitating Robotic Skills via a Dual
-Cognition-Action Architecture</a>.   
-    <em>In: AAMAS 2024.</em>  
+
+    <!-- Paper 6 -->
+    <li>
+        <strong>Cognizing and Imitating Robotic Skills via a Dual Cognition-Action Architecture</strong><br>
+        <strong>Zixuan Chen</strong>, Ze Ji, Shuyang Liu, Jing Huo, Yiyu Chen, Yang Gao.<br>
+        <em>International Conference on Autonomous Agents and Multiagent Systems (<strong>AAMAS</strong>)</em>, 2024.<br>
+        <a href="https://www.ifaamas.org/Proceedings/aamas2024/pdfs/p2204.pdf" class="btn-outline">📄 PDF</a>
     </li>
-  <li><strong>Zixuan Chen</strong>, Wenbin Li, Yang Gao, Yiyu Chen.  
-    <a href="https://www.ifaamas.org/Proceedings/aamas2023/pdfs/p2421.pdf">TiLD: Third-person Imitation Learning by Estimating Domain Cognitive Differences of Visual Demonstrations</a>.   
-    <em>In: AAMAS 2023.</em>  
+
+    <!-- Paper 7 -->
+    <li>
+        <strong>TiLD: Third-person Imitation Learning by Estimating Domain Cognitive Differences of Visual Demonstrations</strong><br>
+        <strong>Zixuan Chen</strong>, Wenbin Li, Yang Gao, Yiyu Chen.<br>
+        <em>International Conference on Autonomous Agents and Multiagent Systems (<strong>AAMAS</strong>)</em>, 2023.<br>
+        <a href="https://www.ifaamas.org/Proceedings/aamas2023/pdfs/p2421.pdf" class="btn-outline">📄 PDF</a>
     </li>
-  <li><strong>Zixuan Chen*</strong>, Zhirui Zhu*, Guang Yang, Yang Gao.  
-    <a href="https://link.springer.com/chapter/10.1007/978-3-031-20868-3_6">HiSA: Facilitating Efficient Multi-Agent Coordination and Cooperation by Hierarchical Policy with Shared Attention</a>.   
-    <em>In: PRICAI 2022.</em>  
-  </li>
-  <li><strong>Zixuan Chen</strong>, Zongzhang Zhang.  
-    <a href="https://link.springer.com/chapter/10.1007/978-3-030-30487-4_46">Deep Recurrent Policy Networks for Planning Under Partial Observability</a>.   
-    <em>In: ICANN 2019.</em>  
-  </li>
-  <li><strong>Zixuan Chen</strong>, Zongzhang Zhang, Zhiyuan Pan, Linjing Zhang.  
-    <a href="https://www.jos.org.cn/josen/article/abstract/6077">Planning Network Model Based on Generalized Asynchronous Value Iteration
-(in Chinese)</a>.   
-    <em>In: Journal of Software(软件学报) 2021.</em>  
-  </li>
-  <li>Zhenxing Ge, Shangdong Yang, Pinzhuo Tian, <strong>Zixuan Chen</strong>, Yang Gao.  
-    <a href="https://ieeexplore.ieee.org/abstract/document/9999061/">Modeling Rationality: Toward Better Performance Against Unknown Agents in Sequential Games</a>.   
-    <em>In: IEEE Transactions on Cybernetics.</em>  
-  </li>
-  <li>Chong Jiang, Zongzhang Zhang, <strong>Zixuan Chen</strong>, Jiacheng Zhu, Junpeng Jiang.  
-    <a href="https://ojs.aaai.org/index.php/AAAI/article/view/7181">Third-Person Imitation Learning via Image Difference and Variational Discriminator Bottleneck</a>.   
-    <em>In: AAAI 2019.</em>  
-  </li>
-  <li>Zhiyuan Pan, Zongzhang Zhang, <strong>Zixuan Chen</strong>.  
-    <a href="https://link.springer.com/chapter/10.1007/978-3-030-04179-3_15">Asynchronous Value Iteration Network</a>.   
-    <em>In: ICONIP 2018.</em>  
-  </li>
-  <li>Shuyang Liu*, <strong>Zixuan Chen*</strong>, Shi Ge, Ji Wang, Changjie Fan, Yu Xiong, Runze Wu Yujing Hu, Ze Ji, Yang Gao.  
-    <a href="https://arxiv.org/pdf/2310.04821">Rethinking Baseline of Integrated Gradients from the Perspective of Shapley
-Value</a>.   
-    <em>In: arXiv:2310.04821.</em>  
-  </li>
+
+    <!-- Paper 8 -->
+    <li>
+        <strong>HiSA: Facilitating Efficient Multi-Agent Coordination and Cooperation by Hierarchical Policy with Shared Attention</strong><br>
+        <strong>Zixuan Chen*</strong>, Zhirui Zhu*, Guang Yang, Yang Gao.<br>
+        <em>Pacific Rim International Conference on Artificial Intelligence (<strong>PRICAI</strong>)</em>, 2022.<br>
+        <a href="https://link.springer.com/chapter/10.1007/978-3-031-20868-3_6" class="btn-outline">📄 PDF</a>
+    </li>
+    
+    <!-- 早期论文 -->
+    <li>
+        <strong>Deep Recurrent Policy Networks for Planning Under Partial Observability</strong><br>
+        <strong>Zixuan Chen</strong>, Zongzhang Zhang.<br>
+        <em>International Conference on Artificial Neural Networks (<strong>ICANN</strong>)</em>, 2019.<br>
+        <a href="https://link.springer.com/chapter/10.1007/978-3-030-30487-4_46" class="btn-outline">📄 PDF</a>
+    </li>
+
+    <li>
+        <strong>Third-Person Imitation Learning via Image Difference and Variational Discriminator Bottleneck</strong><br>
+        Chong Jiang, Zongzhang Zhang, <strong>Zixuan Chen</strong>, Jiacheng Zhu, Junpeng Jiang.<br>
+        <em>AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>)</em>, 2019.<br>
+        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/7181" class="btn-outline">📄 PDF</a>
+    </li>
 </ul>
 
 <h2 id="honors-and-awards">🎖 Honors and Awards</h2>
 <ul>
-    <li><strong>2018.10</strong> Soochow University Graduate Academic Scholarship, Second Prize</li>
-    <li><strong>2019.10</strong> Soochow University Graduate Academic Scholarship, First Prize</li>
-    <li><strong>2020.6</strong> Outstanding Graduate Student of Soochow University</li>
+    <li><strong>2023.07</strong> China Scholarship Council (CSC) Scholarship</li>
     <li><strong>2022.10</strong> Nanjing University Graduate Talent Scholarship</li>
-    <li><strong>2023.7</strong> 2023 China Scholarship Council - Visiting PhD Student</li>
+    <li><strong>2020.06</strong> Outstanding Graduate Student of Soochow University</li>
+    <li><strong>2019.10</strong> Soochow University Graduate Academic Scholarship, First Prize</li>
+    <li><strong>2018.10</strong> Soochow University Graduate Academic Scholarship, Second Prize</li>
 </ul>
 
 <h2 id="services">💼 Services</h2>
 <ul>
-    <li>Reviewer for NeurIPS, CoRL, ICLR, ICRA, TNNLS, IROS, PRCV, etc.</li>
-</ul>
-
-<h2 id="invited-talks">💬 Invited Talks</h2>
-<ul>
-    <li><strong>2019.07</strong>, CCML 2019, Guiyang, China.</li>
-    <li><strong>2024.12</strong>, DAI 2024, Singapore.</li>
+    <li><strong>Conference Reviewer:</strong> NeurIPS, ICLR, ICRA, IROS, CoRL, AAAI, CVPR</li>
+    <li><strong>Journal Reviewer:</strong> IEEE TNNLS, RA-L, TASE</li>
 </ul>
 
 <h2 id="internships">💻 Internships</h2>
 <ul>
-    <li><strong>2019.06 - 2019.10</strong>, <a href="http://fuxi.netease.com/laboratory">NetEase Fuxi Lab</a>, China.</li>
+    <li><strong>2019.06 - 2019.10</strong>: Research Intern at <a href="http://fuxi.netease.com/laboratory">NetEase Fuxi Lab</a>, Hangzhou, China.</li>
 </ul>
+
+<div style="margin-top: 40px; text-align: center;">
+    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=La_fIwpyduMFqQH5lyX5DOWJy0lqFKQ8XyXviIbi7ls&cl=ffffff&w=a"></script>
+</div>
