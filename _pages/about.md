@@ -17,42 +17,50 @@ redirect_from:
 
 <style>
 /* --- 全局字体与排版设置 --- */
-body, p, li, a, div {
+body {
+  /* 使用系统默认无衬线字体，清晰现代 */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
-  font-size: 18px !important; /* 放大字体 */
+  font-size: 16px !important; /* 已回调至 16px，标准且清晰 */
   line-height: 1.6 !important;
-  color: #222;
+  color: #333; /* 稍微柔和一点的黑色 */
+}
+
+/* 针对正文段落和列表的字体强制覆盖 */
+p, li, a, div {
+  font-family: inherit;
+  font-size: inherit;
 }
 
 /* 标题样式微调 */
 h1, h2, h3, h4 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
-  margin-top: 30px !important;
-  margin-bottom: 15px !important;
+  margin-top: 25px !important;
+  margin-bottom: 12px !important;
   font-weight: 700 !important;
+  color: #111;
 }
 
 h2 {
     border-bottom: 2px solid #f2f3f3;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
+    font-size: 1.4em !important; /* 标题大小也相应适配 */
 }
 
-/* --- 隐藏顶部导航栏 (针对常见 Jekyll 主题) --- */
+/* --- 隐藏顶部导航栏 --- */
 .masthead, .site-nav, .greedy-nav, .navigation {
   display: none !important;
 }
-/* 给顶部增加一点留白，因为去掉了导航栏 */
 #main {
-  margin-top: 40px !important;
+  margin-top: 30px !important;
 }
 
 /* --- 按钮样式 --- */
 .btn-outline {
   display: inline-block;
-  padding: 4px 10px; /* 稍微大一点的按钮 */
-  margin-right: 6px;
-  margin-top: 6px;
-  font-size: 13px !important; /* 按钮文字不用太大 */
+  padding: 3px 8px; /* 按钮稍微紧凑一点 */
+  margin-right: 5px;
+  margin-top: 5px;
+  font-size: 12px !important;
   font-weight: 600;
   line-height: 1.2;
   color: #444;
@@ -73,34 +81,34 @@ h2 {
 
 /* --- 新闻区域 --- */
 .news-box {
-  height: 250px; /* 稍微调高一点，因为字体大了 */
+  height: 220px;
   overflow-y: scroll; 
   border: 1px solid #e1e4e8; 
-  padding: 15px; 
-  border-radius: 8px; 
+  padding: 12px; 
+  border-radius: 6px; 
   background-color: #fafbfc; 
-  box-shadow: inset 0 0 5px rgba(0,0,0,0.02);
+  box-shadow: inset 0 0 4px rgba(0,0,0,0.02);
 }
 .news-date {
   font-family: 'Courier New', Courier, monospace !important;
-  color: #555;
+  color: #666;
   font-weight: bold;
   margin-right: 8px;
-  background-color: #f6f8fa;
-  padding: 2px 6px;
+  background-color: #f0f3f6;
+  padding: 2px 5px;
   border-radius: 4px;
   font-size: 0.85em !important;
 }
 
 /* --- 论文列表间距 --- */
 ul.pub-list li {
-  margin-bottom: 25px !important; /* 拉大间距 */
+  margin-bottom: 20px !important;
 }
 
 /* --- 地图容器限制 --- */
 .map-container {
-    width: 300px; /* 强制缩小地图宽度 */
-    margin: 50px auto 20px auto; /* 上下留白，居中 */
+    width: 250px; /* 地图再稍微改小一点点，更精致 */
+    margin: 40px auto 20px auto;
     text-align: center;
 }
 </style>
