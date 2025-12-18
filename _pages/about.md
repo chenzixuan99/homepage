@@ -16,12 +16,43 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <style>
+/* --- 全局字体与排版设置 --- */
+body, p, li, a, div {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  font-size: 18px !important; /* 放大字体 */
+  line-height: 1.6 !important;
+  color: #222;
+}
+
+/* 标题样式微调 */
+h1, h2, h3, h4 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  margin-top: 30px !important;
+  margin-bottom: 15px !important;
+  font-weight: 700 !important;
+}
+
+h2 {
+    border-bottom: 2px solid #f2f3f3;
+    padding-bottom: 10px;
+}
+
+/* --- 隐藏顶部导航栏 (针对常见 Jekyll 主题) --- */
+.masthead, .site-nav, .greedy-nav, .navigation {
+  display: none !important;
+}
+/* 给顶部增加一点留白，因为去掉了导航栏 */
+#main {
+  margin-top: 40px !important;
+}
+
+/* --- 按钮样式 --- */
 .btn-outline {
   display: inline-block;
-  padding: 4px 8px;
-  margin-right: 5px;
-  margin-top: 5px;
-  font-size: 11px;
+  padding: 4px 10px; /* 稍微大一点的按钮 */
+  margin-right: 6px;
+  margin-top: 6px;
+  font-size: 13px !important; /* 按钮文字不用太大 */
   font-weight: 600;
   line-height: 1.2;
   color: #444;
@@ -40,21 +71,37 @@ redirect_from:
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-/* 新闻日期样式 */
+/* --- 新闻区域 --- */
+.news-box {
+  height: 250px; /* 稍微调高一点，因为字体大了 */
+  overflow-y: scroll; 
+  border: 1px solid #e1e4e8; 
+  padding: 15px; 
+  border-radius: 8px; 
+  background-color: #fafbfc; 
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.02);
+}
 .news-date {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Courier New', Courier, monospace !important;
   color: #555;
   font-weight: bold;
   margin-right: 8px;
   background-color: #f6f8fa;
-  padding: 2px 4px;
-  border-radius: 3px;
-  font-size: 0.9em;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.85em !important;
 }
 
-/* 论文列表间距优化 */
+/* --- 论文列表间距 --- */
 ul.pub-list li {
-  margin-bottom: 20px; /* 增加论文之间的间距 */
+  margin-bottom: 25px !important; /* 拉大间距 */
+}
+
+/* --- 地图容器限制 --- */
+.map-container {
+    width: 300px; /* 强制缩小地图宽度 */
+    margin: 50px auto 20px auto; /* 上下留白，居中 */
+    text-align: center;
 }
 </style>
 
@@ -80,7 +127,7 @@ My research focuses on <strong>Robot Learning</strong>, <strong>Reinforcement Le
 ---
 
 <h2 id="news">🔥 News</h2>
-<div style="height: 220px; overflow-y: scroll; border: 1px solid #e1e4e8; padding: 15px; border-radius: 8px; background-color: #fafbfc; box-shadow: inset 0 0 5px rgba(0,0,0,0.02);">
+<div class="news-box">
 <ul style="padding-left: 20px; margin-top: 0;">
   <li><span class="news-date">2025.11</span> 🎉 "ManiLong-Shot" is accepted to <strong>AAAI 2026</strong>.</li>
   <li><span class="news-date">2025.05</span> Preprint "<a href="https://arxiv.org/abs/2505.00527">DeCo: Task Decomposition and Skill Composition</a>" is released.</li>
@@ -96,7 +143,7 @@ My research focuses on <strong>Robot Learning</strong>, <strong>Reinforcement Le
 
 <h2 id="publications">📝 Selected Publications</h2>
 
-<p style="font-size: 0.9em; color: #666;">(* equal contribution)</p>
+<p style="font-size: 0.9em !important; color: #666;">(* equal contribution)</p>
 
 <ul class="pub-list">
     <!-- Paper 1 -->
@@ -200,6 +247,6 @@ My research focuses on <strong>Robot Learning</strong>, <strong>Reinforcement Le
     <li><strong>2019.06 - 2019.10</strong>: Research Intern at <a href="http://fuxi.netease.com/laboratory">NetEase Fuxi Lab</a>, Hangzhou, China.</li>
 </ul>
 
-<div style="margin-top: 40px; text-align: center;">
-    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=La_fIwpyduMFqQH5lyX5DOWJy0lqFKQ8XyXviIbi7ls&cl=ffffff&w=a"></script>
+<div class="map-container">
+    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=La_fIwpyduMFqQH5lyX5DOWJy0lqFKQ8XyXviIbi7ls&cl=ffffff&w=300"></script>
 </div>
