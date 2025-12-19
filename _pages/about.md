@@ -160,6 +160,7 @@ My research focuses on <strong>Robot Learning</strong>, <strong>Reinforcement Le
         <strong>ManiLong-Shot: Interaction-Aware One-Shot Imitation Learning for Long-Horizon Manipulation</strong><br>
         <strong>Zixuan Chen</strong>, Chongkai Gao, Lin Shao, Jieqi Shi, Jing Huo, Yang Gao.<br>
         <em>AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>)</em>, 2026.<br>
+        <a href="https://https://arxiv.org/abs/2512.16302" class="btn-outline">📄 PDF</a>
     </li>
 
     <!-- Paper 1  -->
