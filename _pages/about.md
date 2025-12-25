@@ -163,21 +163,24 @@ My research focuses on <strong>Robot Learning</strong>, <strong>Reinforcement Le
         <a href="https://arxiv.org/abs/2512.16302" class="btn-outline">📄 PDF</a>
     </li>
 
-    <!-- Paper 1  -->
+    <!-- Paper 1 (Updated with Code Link) -->
     <li>
         <strong>RoboHiMan: A Hierarchical Evaluation Paradigm for Compositional Generalization in Long-Horizon Manipulation</strong><br>
         Yangtao Chen*, <strong>Zixuan Chen*</strong>, Nga Teng Chan, Junting Chen, Junhui Yin, Jieqi Shi, Yang Gao, Yong-Lu Li, Jing Huo.<br>
         <em>arXiv preprint arXiv:2510.13149</em>, 2025.<br>
         <a href="https://chenyt31.github.io/robo-himan.github.io/" class="btn-outline">🌐 Website</a>
+        <!-- PLEASE CHECK THIS LINK BELOW -->
+        <a href="https://github.com/chenyt31/RoboHiMan" class="btn-outline">💻 Code</a>
     </li>
 
-    <!-- Paper 2 -->
+    <!-- Paper 2 (Updated with Code Link) -->
     <li>
         <strong>DeCo: Task Decomposition and Skill Composition for Zero-Shot Generalization in Long-Horizon 3D Manipulation</strong><br>
         <strong>Zixuan Chen*</strong>, Junhui Yin*, Yangtao Chen, Jing Huo, Pinzhuo Tian, Jieqi Shi, Yiwen Hou, Yinchuan Li, Yang Gao.<br>
         <em>arXiv preprint arXiv:2505.00527</em>, 2025.<br>
         <a href="https://arxiv.org/abs/2505.00527" class="btn-outline">📄 PDF</a>
         <a href="https://deco226.github.io/" class="btn-outline">🌐 Website</a>
+        <a href="https://github.com/chenzixuan99/RoboHiMan" class="btn-outline">💻 Code</a>
     </li>
 
     <!-- Paper 3 -->
