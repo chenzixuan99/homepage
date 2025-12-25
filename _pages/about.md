@@ -168,6 +168,7 @@ My research focuses on <strong>Robot Learning</strong>, <strong>Reinforcement Le
         <strong>RoboHiMan: A Hierarchical Evaluation Paradigm for Compositional Generalization in Long-Horizon Manipulation</strong><br>
         Yangtao Chen*, <strong>Zixuan Chen*</strong>, Nga Teng Chan, Junting Chen, Junhui Yin, Jieqi Shi, Yang Gao, Yong-Lu Li, Jing Huo.<br>
         <em>arXiv preprint arXiv:2510.13149</em>, 2025.<br>
+        <a href="https://arxiv.org/abs/2510.13149" class="btn-outline">📄 PDF</a>
         <a href="https://chenyt31.github.io/robo-himan.github.io/" class="btn-outline">🌐 Website</a>
         <!-- PLEASE CHECK THIS LINK BELOW -->
         <a href="https://github.com/chenyt31/RoboHiMan" class="btn-outline">💻 Code</a>
