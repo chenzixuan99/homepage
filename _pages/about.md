@@ -115,7 +115,7 @@ ul.pub-list li {
 <h2 id="about-me">About Me</h2>
 
 <p>
-Hi! I am <strong>Zixuan Chen (陈子璇)</strong>. I am currently a Ph.D. Candidate at the School of Computer Science and Technology, <a href="http://www.nju.edu.cn/">Nanjing University (NJU)</a>. I am a member of the <a href="https://cs.nju.edu.cn/rl/index.htm">R&L Group</a>, advised by Prof. <a href="https://cs.nju.edu.cn/gaoyang/index.htm">Yang Gao</a> and Assoc. Prof. <a href="https://cs.nju.edu.cn/huojing/index.htm">Jing Huo</a>. 
+Hi! I am <strong>Zixuan Chen (陈子璇)</strong>. I am currently a Ph.D. Candidate at the School of Computer Science and Technology, <a href="http://www.nju.edu.cn/">Nanjing University (NJU)</a>. I am a member of the <a href="https://cs.nju.edu.cn/rl/index.htm">R&L Group</a>, advised by Prof. <a href="https://is.nju.edu.cn/gy_en/main.htm">Yang Gao</a> and Assoc. Prof. <a href="https://cs.nju.edu.cn/huojing/index.htm">Jing Huo</a>. 
 </p>
 
 <p>
