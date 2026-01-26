@@ -136,6 +136,7 @@ My research focuses on <strong>Robot Learning</strong>, <strong>Reinforcement Le
 <h2 id="news">🔥 News</h2>
 <div class="news-box">
 <ul style="padding-left: 20px; margin-top: 0;">
+  <li><span class="news-date">2026.01</span> 🎉 "DeCo" is accepted to <strong>RAL 2026</strong>.</li>
   <li><span class="news-date">2025.11</span> 🎉 "ManiLong-Shot" is accepted to <strong>AAAI 2026</strong>.</li>
   <li><span class="news-date">2025.10</span> Preprint "<a href="https://chenyt31.github.io/robo-himan.github.io/">RoboHiMan</a>" (Compositional Generalization in Long-horizon Manipulation) is released.</li>
   <li><span class="news-date">2025.05</span> Preprint "<a href="https://arxiv.org/abs/2505.00527">DeCo</a>"(Task Decomposition and Skill Composition for Long-horizon Manipulation) is released.</li>
@@ -178,7 +179,7 @@ My research focuses on <strong>Robot Learning</strong>, <strong>Reinforcement Le
     <li>
         <strong>DeCo: Task Decomposition and Skill Composition for Zero-Shot Generalization in Long-Horizon 3D Manipulation</strong><br>
         <strong>Zixuan Chen*</strong>, Junhui Yin*, Yangtao Chen, Jing Huo, Pinzhuo Tian, Jieqi Shi, Yiwen Hou, Yinchuan Li, Yang Gao.<br>
-        <em>arXiv preprint arXiv:2505.00527</em>, 2025.<br>
+        <em>IEEE Robotics and Automation Letters (<strong>RAL</strong>)</em>, 2026.<br>
         <a href="https://arxiv.org/abs/2505.00527" class="btn-outline">📄 PDF</a>
         <a href="https://deco226.github.io/" class="btn-outline">🌐 Website</a>
         <a href="https://github.com/chenzixuan99/RoboHiMan" class="btn-outline">💻 Code</a>
