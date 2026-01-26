@@ -155,6 +155,7 @@ My research focuses on <strong>Robot Learning</strong>, <strong>Reinforcement Le
 <p style="font-size: 0.9em !important; color: #666;">(* equal contribution)</p>
 
 <ul class="pub-list">
+    <!-- Paper 0 -->
     <li>
         <strong>DeCo: Task Decomposition and Skill Composition for Zero-Shot Generalization in Long-Horizon 3D Manipulation</strong><br>
         <strong>Zixuan Chen</strong>, Junhui Yin, Yangtao Chen, Jing Huo, Pinzhuo Tian, Jieqi Shi, Yiwen Hou, Yinchuan Li, Yang Gao.<br>
