@@ -155,6 +155,14 @@ My research focuses on <strong>Robot Learning</strong>, <strong>Reinforcement Le
 <p style="font-size: 0.9em !important; color: #666;">(* equal contribution)</p>
 
 <ul class="pub-list">
+    <li>
+        <strong>DeCo: Task Decomposition and Skill Composition for Zero-Shot Generalization in Long-Horizon 3D Manipulation</strong><br>
+        <strong>Zixuan Chen</strong>, Junhui Yin, Yangtao Chen, Jing Huo, Pinzhuo Tian, Jieqi Shi, Yiwen Hou, Yinchuan Li, Yang Gao.<br>
+        <em>IEEE Robotics and Automation Letters (<strong>RAL</strong>)</em>, 2026.<br>
+        <a href="https://arxiv.org/abs/2505.00527" class="btn-outline">📄 PDF</a>
+        <a href="https://deco226.github.io/" class="btn-outline">🌐 Website</a>
+        <a href="https://github.com/chenzixuan99/RoboHiMan" class="btn-outline">💻 Code</a>
+    </li>
 
     <!-- Paper 0 -->
     <li>
@@ -175,15 +183,6 @@ My research focuses on <strong>Robot Learning</strong>, <strong>Reinforcement Le
         <a href="https://github.com/chenyt31/RoboHiMan" class="btn-outline">💻 Code</a>
     </li>
 
-    <!-- Paper 2 (Updated with Code Link) -->
-    <li>
-        <strong>DeCo: Task Decomposition and Skill Composition for Zero-Shot Generalization in Long-Horizon 3D Manipulation</strong><br>
-        <strong>Zixuan Chen*</strong>, Junhui Yin*, Yangtao Chen, Jing Huo, Pinzhuo Tian, Jieqi Shi, Yiwen Hou, Yinchuan Li, Yang Gao.<br>
-        <em>IEEE Robotics and Automation Letters (<strong>RAL</strong>)</em>, 2026.<br>
-        <a href="https://arxiv.org/abs/2505.00527" class="btn-outline">📄 PDF</a>
-        <a href="https://deco226.github.io/" class="btn-outline">🌐 Website</a>
-        <a href="https://github.com/chenzixuan99/RoboHiMan" class="btn-outline">💻 Code</a>
-    </li>
 
     <!-- Paper 3 -->
     <li>
