@@ -136,6 +136,7 @@ My research focuses on <strong>Robot Learning</strong>, <strong>Reinforcement Le
 <h2 id="news">🔥 News</h2>
 <div class="news-box">
 <ul style="padding-left: 20px; margin-top: 0;">
+  <li><span class="news-date">2026.01</span> 🎉 4 papers (RoTri-Diff, LaViRA, AdaptPNP and LISN) are accepted to <strong>ICRA 2026</strong>.</li>
   <li><span class="news-date">2026.01</span> 🎉 "DeCo" is accepted to <strong>RAL 2026</strong>.</li>
   <li><span class="news-date">2025.11</span> 🎉 "ManiLong-Shot" is accepted to <strong>AAAI 2026</strong>.</li>
   <li><span class="news-date">2025.10</span> Preprint "<a href="https://chenyt31.github.io/robo-himan.github.io/">RoboHiMan</a>" (Compositional Generalization in Long-horizon Manipulation) is released.</li>
