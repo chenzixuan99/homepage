@@ -136,16 +136,16 @@ My research focuses on <strong>Robot Learning</strong>, <strong>Reinforcement Le
 <h2 id="news">🔥 News</h2>
 <div class="news-box">
 <ul style="padding-left: 20px; margin-top: 0;">
-  <li><span class="news-date">2026.01</span> 🎉 4 papers (RoTri-Diff, LaViRA, AdaptPNP and LISN) are accepted to <strong>ICRA 2026</strong>.</li>
-  <li><span class="news-date">2026.01</span> 🎉 "DeCo" is accepted to <strong>RAL 2026</strong>.</li>
-  <li><span class="news-date">2025.11</span> 🎉 "ManiLong-Shot" is accepted to <strong>AAAI 2026</strong>.</li>
-  <li><span class="news-date">2025.10</span> Preprint "<a href="https://chenyt31.github.io/robo-himan.github.io/">RoboHiMan</a>" (Compositional Generalization in Long-horizon Manipulation) is released.</li>
-  <li><span class="news-date">2025.05</span> Preprint "<a href="https://arxiv.org/abs/2505.00527">DeCo</a>"(Task Decomposition and Skill Composition for Long-horizon Manipulation) is released.</li>
-  <li><span class="news-date">2025.01</span> 🎉 "GravMAD" is accepted to <strong>ICLR 2025</strong>.</li>
-  <li><span class="news-date">2025.01</span> Preprint "<a href="https://arxiv.org/abs/2501.06605">RoboHorizon</a>" (World Model for Long-horizon Manipulation) is released.</li> 
-  <li><span class="news-date">2024.09</span> 🎉 "SCaR" (Skill Chaining) is accepted to <strong>NeurIPS 2024</strong>.</li>
-  <li><span class="news-date">2023.12</span> 🎉 "Cognizing and Imitating Robotic Skills" is accepted to <strong>AAMAS 2024</strong>.</li>
-  <li><span class="news-date">2023.01</span> 🎉 "TiLD" is accepted to <strong>AAMAS 2023</strong>.</li>
+  <li><span class="news-date">2026.01</span> 🎉 4 papers (RoTri-Diff, LaViRA, AdaptPNP and LISN) were accepted to <strong>ICRA 2026</strong>.</li>
+  <li><span class="news-date">2026.01</span> 🎉 "DeCo" was accepted to <strong>RAL 2026</strong>.</li>
+  <li><span class="news-date">2025.11</span> 🎉 "ManiLong-Shot" was accepted to <strong>AAAI 2026</strong>.</li>
+  <li><span class="news-date">2025.10</span> Preprint "<a href="https://chenyt31.github.io/robo-himan.github.io/">RoboHiMan</a>" (Compositional Generalization in Long-horizon Manipulation) was released.</li>
+  <li><span class="news-date">2025.05</span> Preprint "<a href="https://arxiv.org/abs/2505.00527">DeCo</a>"(Task Decomposition and Skill Composition for Long-horizon Manipulation) was released.</li>
+  <li><span class="news-date">2025.01</span> 🎉 "GravMAD" was accepted to <strong>ICLR 2025</strong>.</li>
+  <li><span class="news-date">2025.01</span> Preprint "<a href="https://arxiv.org/abs/2501.06605">RoboHorizon</a>" (World Model for Long-horizon Manipulation) was released.</li> 
+  <li><span class="news-date">2024.09</span> 🎉 "SCaR" (Skill Chaining) was accepted to <strong>NeurIPS 2024</strong>.</li>
+  <li><span class="news-date">2023.12</span> 🎉 "Cognizing and Imitating Robotic Skills" was accepted to <strong>AAMAS 2024</strong>.</li>
+  <li><span class="news-date">2023.01</span> 🎉 "TiLD" was accepted to <strong>AAMAS 2023</strong>.</li>
 </ul>
 </div>
 
