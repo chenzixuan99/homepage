@@ -115,7 +115,7 @@ ul.pub-list li {
 <h2 id="about-me">About Me</h2>
 
 <p>
-Hi! I am <strong>Zixuan Chen (陈子璇)</strong>. I am currently a Ph.D. Candidate at the School of Computer Science and Technology, <a href="http://www.nju.edu.cn/">Nanjing University (NJU)</a>. I am a member of the <a href="https://cs.nju.edu.cn/rl/index.htm">R&L Group</a>, advised by Prof. <a href="https://is.nju.edu.cn/gy_en/main.htm">Yang Gao</a> and Assoc. Prof. <a href="https://cs.nju.edu.cn/huojing/index.htm">Jing Huo</a>. 
+Hi! I am <strong>Zixuan Chen (陈子璇)</strong>. I received my Ph.D. degree from the School of Computer Science and Technology, <a href="http://www.nju.edu.cn/">Nanjing University (NJU)</a> in March 2026, advised by Prof. <a href="https://is.nju.edu.cn/gy_en/main.htm">Yang Gao</a> and Assoc. Prof. <a href="https://cs.nju.edu.cn/huojing/index.htm">Jing Huo</a>. I will be joining the <a href="https://is.nju.edu.cn/">School of Intelligent Science and Technology</a>, Nanjing University (Suzhou Campus).
 </p>
 
 <p>
@@ -136,6 +136,7 @@ My research focuses on <strong>Robot Learning</strong>, <strong>Reinforcement Le
 <h2 id="news">🔥 News</h2>
 <div class="news-box">
 <ul style="padding-left: 20px; margin-top: 0;">
+  <li><span class="news-date">2026.02</span> 🎉 "AGiLe" were accepted to <strong>CVPR 2026</strong>.</li>
   <li><span class="news-date">2026.01</span> 🎉 4 papers (RoTri-Diff, LaViRA, AdaptPNP and LISN) were accepted to <strong>ICRA 2026</strong>.</li>
   <li><span class="news-date">2026.01</span> 🎉 "DeCo" was accepted to <strong>RAL 2026</strong>.</li>
   <li><span class="news-date">2025.11</span> 🎉 "ManiLong-Shot" was accepted to <strong>AAAI 2026</strong>.</li>
