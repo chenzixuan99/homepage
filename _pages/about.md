@@ -136,6 +136,7 @@ My research focuses on <strong>Robot Learning</strong>, <strong>Reinforcement Le
 <h2 id="news">🔥 News</h2>
 <div class="news-box">
 <ul style="padding-left: 20px; margin-top: 0;">
+  <li><span class="news-date">2026.04</span> 🎤 Invited talk at <strong>Zhuoyu Technology (卓驭科技)</strong>, Shenzhen, China.</li>
   <li><span class="news-date">2026.02</span> 🎉 "AGiLe" was accepted to <strong>CVPR 2026</strong>.</li>
   <li><span class="news-date">2026.01</span> 🎉 4 papers (RoTri-Diff, LaViRA, AdaptPNP and LISN) were accepted to <strong>ICRA 2026</strong>.</li>
   <li><span class="news-date">2026.01</span> 🎉 "DeCo" was accepted to <strong>RAL 2026</strong>.</li>
