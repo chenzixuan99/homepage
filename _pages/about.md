@@ -351,7 +351,6 @@ h3 {
   <a href="#honors-and-awards">Honors</a>
   <a href="#services">Services</a>
   <a href="#internships">Internships</a>
-  <a href="#visitors">Visitors</a>
 </nav>
 
 <div class="section-card">
@@ -602,9 +601,14 @@ h3 {
   </ul>
 </div>
 
-<div class="section-card map-card">
-  <h2 id="visitors">🌍 Visitors</h2>
-  <div class="map-container">
-    <img src="https://clustrmaps.com/map_v2.png?d=La_fIwpyduMFqQH5lyX5DOWJy0lqFKQ8XyXviIbi7ls&cl=ffffff&w=300" alt="Visitor map" style="max-width:100%; border-radius:12px;">
-  </div>
-</div>
+<script>
+document.querySelectorAll('.quick-nav a').forEach(function (link) {
+  link.addEventListener('click', function (e) {
+    var target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      e.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth' });
+    }
+  });
+});
+</script>
