@@ -336,6 +336,9 @@ h3 {
   <h2 id="news">🔥 News</h2>
   <div class="news-box">
     <ul class="news-list">
+      <li><span class="news-date">2026.06</span> 🏅 "INHerit-SG" was selected as a <strong>Best Presentation Finalist</strong> at the <strong>ICRA 2026 Workshop on Robots Meet Prior Maps</strong>.</li>
+      <li><span class="news-date">2026.06</span> 🎉 "RoboHorizon" was accepted to <strong>SCIENCE CHINA Information Sciences (SCIS)</strong>.</li>
+      <li><span class="news-date">2026.06</span> 🏆 "V-Dreamer" received the <strong>Best Paper Award</strong> at the <strong>ICRA 2026 Workshop on Generative Digital Twins for Real2Sim and Sim2Real Transfer</strong>.</li>
       <li><span class="news-date">2026.04</span> 🎤 Invited talk at <strong>Zhuoyu Technology (卓驭科技)</strong>, Shenzhen, China.</li>
       <li><span class="news-date">2026.02</span> 🎉 "AGiLe" was accepted to <strong>CVPR 2026</strong>.</li>
       <li><span class="news-date">2026.01</span> 🎉 4 papers (RoTri-Diff, LaViRA, AdaptPNP and LISN) were accepted to <strong>ICRA 2026</strong>.</li>
@@ -392,6 +395,70 @@ h3 {
         <a href="https://arxiv.org/abs/2512.16302" class="btn-outline">📄 PDF</a>
       </div>
     </li>
+
+    <li class="pub-card">
+      <div class="paper-title">RoboHorizon: An LLM-Assisted Multi-View World Model for Long-Horizon Robotic Manipulation</div>
+      <div class="paper-authors"><strong>Zixuan Chen</strong>, Jing Huo, Yangtao Chen, Yang Gao.</div>
+      <div class="paper-venue"><em>SCIENCE CHINA Information Sciences (<strong>SCIS</strong>)</em>, 2026.</div>
+      <div class="paper-links">
+        <a href="https://arxiv.org/abs/2501.06605" class="btn-outline">📄 PDF</a>
+      </div>
+    </li>
+
+    <li class="pub-card">
+      <div class="paper-title">INHerit-SG: Incremental Hierarchical Semantic Scene Graphs with RAG-Style Retrieval</div>
+      <div class="paper-authors">YukTung Samuel Fang, Zhikang Shi, Jiabin Qiu, <strong>Zixuan Chen</strong>, Jieqi Shi, Hao Xu, Jing Huo, Yang Gao.</div>
+      <div class="paper-venue"><em>arXiv preprint arXiv:2602.12971</em>, 2026. <strong>(Best Presentation Finalist, ICRA 2026 Workshop on Robots Meet Prior Maps)</strong></div>
+      <div class="paper-links">
+        <a href="https://arxiv.org/abs/2602.12971" class="btn-outline">📄 PDF</a>
+        <a href="https://fangyuktung.github.io/INHeritSG.github.io/" class="btn-outline">🌐 Website</a>
+      </div>
+    </li>
+
+    <li class="pub-card">
+      <div class="paper-title">AdaClearGrasp: Learning Adaptive Clearing for Zero-Shot Robust Dexterous Grasping in Densely Cluttered Environments</div>
+      <div class="paper-authors"><strong>Zixuan Chen</strong>, W. Zhang, J. Fang, R. Zeng, Z. Xu, Y. Hou, X. Wang, Jieqi Shi, Jing Huo, et al.</div>
+      <div class="paper-venue"><em>arXiv preprint arXiv:2603.10616</em>, 2026.</div>
+      <div class="paper-links">
+        <a href="https://arxiv.org/abs/2603.10616" class="btn-outline">📄 PDF</a>
+      </div>
+    </li>
+
+    <li class="pub-card">
+      <div class="paper-title">V-Dreamer: Automating Robotic Simulation and Trajectory Synthesis via Video Generation Priors</div>
+      <div class="paper-authors">Songjia He, <strong>Zixuan Chen</strong>, Hongyu Ding, D. Shao, Jieqi Shi, C. Li, Jing Huo, Yang Gao.</div>
+      <div class="paper-venue"><em>arXiv preprint arXiv:2603.18811</em>, 2026. <strong>(Best Paper Award, ICRA 2026 Workshop on Generative Digital Twins for Real2Sim and Sim2Real Transfer)</strong></div>
+      <div class="paper-links">
+        <a href="https://arxiv.org/abs/2603.18811" class="btn-outline">📄 PDF</a>
+      </div>
+    </li>
+
+    <li class="pub-card">
+      <div class="paper-title">ST-VLA: Enabling 4D-Aware Spatiotemporal Understanding for General Robot Manipulation</div>
+      <div class="paper-authors">Y. Wu, <strong>Zixuan Chen</strong>, C. Ou, W. Wang, W. Huang, L. Cao, Y. Chen, W. Qiu, X. Quan, et al.</div>
+      <div class="paper-venue"><em>arXiv preprint arXiv:2603.13788</em>, 2026.</div>
+      <div class="paper-links">
+        <a href="https://arxiv.org/abs/2603.13788" class="btn-outline">📄 PDF</a>
+      </div>
+    </li>
+
+    <li class="pub-card">
+      <div class="paper-title">MoMaStage: Skill-State Graph Guided Planning and Closed-Loop Execution for Long-Horizon Indoor Mobile Manipulation</div>
+      <div class="paper-authors">C. Li, <strong>Zixuan Chen</strong>, Y. Li, J. Xu, Hongyu Ding, Jieqi Shi, Jing Huo, Yang Gao.</div>
+      <div class="paper-venue"><em>arXiv preprint arXiv:2603.08383</em>, 2026.</div>
+      <div class="paper-links">
+        <a href="https://arxiv.org/abs/2603.08383" class="btn-outline">📄 PDF</a>
+      </div>
+    </li>
+
+    <li class="pub-card">
+      <div class="paper-title">Uni-LaViRA: Language-Vision-Robot Actions Translation for Unified Embodied Navigation</div>
+      <div class="paper-authors">Hongyu Ding, S. Zhang, Z. Xu, J. Guo, H. Liu, X. Cheng, <strong>Zixuan Chen</strong>, H. Qi, D. Wang, et al.</div>
+      <div class="paper-venue"><em>arXiv preprint arXiv:2605.27582</em>, 2026.</div>
+      <div class="paper-links">
+        <a href="https://arxiv.org/abs/2605.27582" class="btn-outline">📄 PDF</a>
+      </div>
+    </li>
   </ul>
 
   <div class="year-badge">2025</div>
@@ -414,15 +481,6 @@ h3 {
       <div class="paper-links">
         <a href="https://arxiv.org/abs/2409.20154" class="btn-outline">📄 PDF</a>
         <a href="https://gravmad.github.io/" class="btn-outline">🌐 Website</a>
-      </div>
-    </li>
-
-    <li class="pub-card">
-      <div class="paper-title">RoboHorizon: An LLM-Assisted Multi-View World Model for Long-Horizon Robotic Manipulation</div>
-      <div class="paper-authors"><strong>Zixuan Chen</strong>, Jing Huo, Yangtao Chen, Yang Gao.</div>
-      <div class="paper-venue"><em>arXiv preprint arXiv:2501.06605</em>, 2025.</div>
-      <div class="paper-links">
-        <a href="https://arxiv.org/abs/2501.06605" class="btn-outline">📄 PDF</a>
       </div>
     </li>
   </ul>
@@ -465,6 +523,8 @@ h3 {
   <div class="section-card">
     <h2 id="honors-and-awards">🎖 Honors and Awards</h2>
     <ul class="simple-list">
+      <li><strong>2026.06</strong> Best Paper Award, ICRA 2026 Workshop on Generative Digital Twins for Real2Sim and Sim2Real Transfer (V-Dreamer)</li>
+      <li><strong>2026.06</strong> Best Presentation Finalist, ICRA 2026 Workshop on Robots Meet Prior Maps (INHerit-SG)</li>
       <li><strong>2023.07</strong> China Scholarship Council (CSC) Scholarship</li>
       <li><strong>2022.10</strong> Nanjing University Graduate Talent Scholarship</li>
       <li><strong>2020.06</strong> Outstanding Graduate Student of Soochow University</li>
