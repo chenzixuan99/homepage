@@ -56,6 +56,7 @@ h2 {
   font-size: 1.42em !important;
   border-bottom: 1px solid #edf1f5;
   padding-bottom: 10px;
+  scroll-margin-top: 80px;
 }
 
 h3 {
@@ -281,6 +282,46 @@ h3 {
   text-align: center;
 }
 
+/* ---------- Top Nav Buttons ---------- */
+.quick-nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  background: rgba(250, 251, 252, 0.88);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid #e8edf3;
+  border-radius: 14px;
+  padding: 10px 12px;
+  margin-bottom: 24px;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.05);
+}
+
+.quick-nav a {
+  display: inline-block;
+  padding: 6px 14px;
+  font-size: 0.9em !important;
+  font-weight: 600;
+  color: #334155;
+  background: #ffffff;
+  border: 1px solid #d6dee8;
+  border-radius: 999px;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+}
+
+.quick-nav a:hover {
+  background: #eff6ff;
+  border-color: #93c5fd;
+  color: #1d4ed8;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.08);
+}
+
 /* ---------- Responsive ---------- */
 @media (max-width: 768px) {
   .section-card {
@@ -302,6 +343,16 @@ h3 {
   }
 }
 </style>
+
+<nav class="quick-nav">
+  <a href="#about-me">About</a>
+  <a href="#news">News</a>
+  <a href="#publications">Publications</a>
+  <a href="#honors-and-awards">Honors</a>
+  <a href="#services">Services</a>
+  <a href="#internships">Internships</a>
+  <a href="#visitors">Visitors</a>
+</nav>
 
 <div class="section-card">
   <h2 id="about-me">About Me</h2>
@@ -417,16 +468,18 @@ h3 {
 
     <li class="pub-card">
       <div class="paper-title">AdaClearGrasp: Learning Adaptive Clearing for Zero-Shot Robust Dexterous Grasping in Densely Cluttered Environments</div>
-      <div class="paper-authors"><strong>Zixuan Chen</strong>, W. Zhang, J. Fang, R. Zeng, Z. Xu, Y. Hou, X. Wang, Jieqi Shi, Jing Huo, et al.</div>
+      <div class="paper-authors"><strong>Zixuan Chen*</strong>, W. Zhang*, J. Fang, R. Zeng, Z. Xu, Y. Hou, X. Wang, Jieqi Shi, Jing Huo, et al.</div>
       <div class="paper-venue"><em>arXiv preprint arXiv:2603.10616</em>, 2026.</div>
       <div class="paper-links">
         <a href="https://arxiv.org/abs/2603.10616" class="btn-outline">📄 PDF</a>
+        <a href="https://chenzixuan99.github.io/adaclear-grasp.github.io/" class="btn-outline">🌐 Website</a>
+        <a href="https://github.com/NJU-R-L-Group-Embodied-Lab/AdaClearGrasp" class="btn-outline">💻 Code</a>
       </div>
     </li>
 
     <li class="pub-card">
       <div class="paper-title">V-Dreamer: Automating Robotic Simulation and Trajectory Synthesis via Video Generation Priors</div>
-      <div class="paper-authors">Songjia He, <strong>Zixuan Chen</strong>, Hongyu Ding, D. Shao, Jieqi Shi, C. Li, Jing Huo, Yang Gao.</div>
+      <div class="paper-authors">Songjia He*, <strong>Zixuan Chen*</strong>, Hongyu Ding, D. Shao, Jieqi Shi, C. Li, Jing Huo, Yang Gao.</div>
       <div class="paper-venue"><em>arXiv preprint arXiv:2603.18811</em>, 2026. <strong>(Best Paper Award, ICRA 2026 Workshop on Generative Digital Twins for Real2Sim and Sim2Real Transfer)</strong></div>
       <div class="paper-links">
         <a href="https://arxiv.org/abs/2603.18811" class="btn-outline">📄 PDF</a>
@@ -435,7 +488,7 @@ h3 {
 
     <li class="pub-card">
       <div class="paper-title">ST-VLA: Enabling 4D-Aware Spatiotemporal Understanding for General Robot Manipulation</div>
-      <div class="paper-authors">Y. Wu, <strong>Zixuan Chen</strong>, C. Ou, W. Wang, W. Huang, L. Cao, Y. Chen, W. Qiu, X. Quan, et al.</div>
+      <div class="paper-authors">Y. Wu*, <strong>Zixuan Chen*</strong>, C. Ou, W. Wang, W. Huang, L. Cao, Y. Chen, W. Qiu, X. Quan, et al.</div>
       <div class="paper-venue"><em>arXiv preprint arXiv:2603.13788</em>, 2026.</div>
       <div class="paper-links">
         <a href="https://arxiv.org/abs/2603.13788" class="btn-outline">📄 PDF</a>
@@ -444,7 +497,7 @@ h3 {
 
     <li class="pub-card">
       <div class="paper-title">MoMaStage: Skill-State Graph Guided Planning and Closed-Loop Execution for Long-Horizon Indoor Mobile Manipulation</div>
-      <div class="paper-authors">C. Li, <strong>Zixuan Chen</strong>, Y. Li, J. Xu, Hongyu Ding, Jieqi Shi, Jing Huo, Yang Gao.</div>
+      <div class="paper-authors">C. Li*, <strong>Zixuan Chen*</strong>, Y. Li, J. Xu, Hongyu Ding, Jieqi Shi, Jing Huo, Yang Gao.</div>
       <div class="paper-venue"><em>arXiv preprint arXiv:2603.08383</em>, 2026.</div>
       <div class="paper-links">
         <a href="https://arxiv.org/abs/2603.08383" class="btn-outline">📄 PDF</a>
@@ -552,6 +605,6 @@ h3 {
 <div class="section-card map-card">
   <h2 id="visitors">🌍 Visitors</h2>
   <div class="map-container">
-    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=La_fIwpyduMFqQH5lyX5DOWJy0lqFKQ8XyXviIbi7ls&cl=ffffff&w=300"></script>
+    <img src="https://clustrmaps.com/map_v2.png?d=La_fIwpyduMFqQH5lyX5DOWJy0lqFKQ8XyXviIbi7ls&cl=ffffff&w=300" alt="Visitor map" style="max-width:100%; border-radius:12px;">
   </div>
 </div>
