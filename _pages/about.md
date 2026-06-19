@@ -366,19 +366,21 @@ h3 {
 
   <h3 id="research-interests">🔬 Research Interests</h3>
   <p>
-    My research focuses on <strong>Robot Learning</strong>, <strong>Reinforcement Learning</strong>, and <strong>Imitation Learning</strong>. I am particularly interested in:
+    My research focuses on <strong>Robot Learning</strong>, <strong>Reinforcement Learning</strong>, and <strong>Imitation Learning</strong> for embodied agents. I am particularly interested in three complementary directions, one target problem supported by two core capabilities:
   </p>
   <ul class="interest-list">
-    <li><strong>Long-horizon Manipulation:</strong> Leveraging prior knowledge (e.g., skill chaining, task decomposition) to solve complex, multi-stage tasks.</li>
-    <li><strong>Spatial Intelligence:</strong> Enabling robots to possess highly generalizable 3D spatial reasoning capabilities (e.g., 3D manipulation, world models).</li>
+    <li><strong>Long-horizon Embodied Tasks:</strong> The target problem, where I leverage task priors such as skill chaining and task decomposition to robustly solve complex, multi-stage tasks in manipulation, mobile manipulation, and humanoid loco-manipulation.</li>
+    <li><strong>Spatial Intelligence:</strong> Grounding actions in the physical world through generalizable 3D spatial perception and reasoning (e.g., geometric relations, affordances).</li>
+    <li><strong>Embodied World Models:</strong> Learning generative models of environment dynamics to enable predictive planning and scalable data generation.</li>
   </ul>
 
   <div class="tag-row">
     <span class="tag-chip">Robot Learning</span>
     <span class="tag-chip">Reinforcement Learning</span>
     <span class="tag-chip">Imitation Learning</span>
-    <span class="tag-chip">Long-horizon Manipulation</span>
+    <span class="tag-chip">Long-horizon Embodied Tasks</span>
     <span class="tag-chip">Spatial Intelligence</span>
+    <span class="tag-chip">Embodied World Models</span>
   </div>
 </div>
 
@@ -415,6 +417,10 @@ h3 {
       <div class="paper-title">AGiLe: Learning Robust Long-Horizon Manipulation via Affordance-Grounded Bidirectional Latent Planning</div>
       <div class="paper-authors"><strong>Zixuan Chen</strong>, Xiangrong Feng, Jieqi Shi, Lin Shao, Jing Huo, Yang Gao.</div>
       <div class="paper-venue"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2026.</div>
+      <div class="paper-links">
+        <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Chen_AGiLe_Learning_Robust_Long-Horizon_Manipulation_via_Affordance-Grounded_Bidirectional_Latent_Planning_CVPR_2026_paper.pdf" class="btn-outline">📄 PDF</a>
+        <a href="https://agile-long.github.io/" class="btn-outline">🌐 Website</a>
+      </div>
     </li>
 
     <li class="pub-card">
