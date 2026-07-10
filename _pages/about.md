@@ -7,20 +7,17 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
 {% else %}
 {% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <style>
 /* ---------- Global ---------- */
 html {
   scroll-behavior: smooth;
 }
-
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
   font-size: 16px !important;
@@ -28,22 +25,18 @@ body {
   color: #334155;
   background: #fafbfc;
 }
-
 p, li, a, div, span {
   font-family: inherit;
   font-size: inherit;
 }
-
 a {
   color: #2563eb;
   text-decoration: none;
 }
-
 a:hover {
   color: #1d4ed8;
   text-decoration: underline;
 }
-
 h1, h2, h3, h4 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
   font-weight: 700 !important;
@@ -51,27 +44,22 @@ h1, h2, h3, h4 {
   margin-top: 25px !important;
   margin-bottom: 12px !important;
 }
-
 h2 {
   font-size: 1.42em !important;
   border-bottom: 1px solid #edf1f5;
   padding-bottom: 10px;
   scroll-margin-top: 80px;
 }
-
 h3 {
   font-size: 1.12em !important;
 }
-
 /* ---------- Hide top nav ---------- */
 .masthead, .site-nav, .greedy-nav, .navigation {
   display: none !important;
 }
-
 #main {
   margin-top: 28px !important;
 }
-
 /* ---------- Section cards ---------- */
 .section-card {
   background: #ffffff;
@@ -81,20 +69,16 @@ h3 {
   margin-bottom: 24px;
   box-shadow: 0 10px 28px rgba(15, 23, 42, 0.05);
 }
-
 .section-card h2:first-child,
 .section-card h3:first-child {
   margin-top: 0 !important;
 }
-
 .lead-text {
   color: #475569;
 }
-
 .tag-row {
   margin-top: 14px;
 }
-
 .tag-chip {
   display: inline-block;
   background: #eff6ff;
@@ -107,7 +91,6 @@ h3 {
   font-size: 0.88em !important;
   font-weight: 600;
 }
-
 /* ---------- Buttons ---------- */
 .btn-outline {
   display: inline-block;
@@ -125,7 +108,6 @@ h3 {
   transition: all 0.2s ease;
   box-shadow: 0 1px 2px rgba(0,0,0,0.03);
 }
-
 .btn-outline:hover {
   background-color: #eff6ff;
   border-color: #93c5fd;
@@ -133,28 +115,24 @@ h3 {
   transform: translateY(-1px);
   box-shadow: 0 4px 10px rgba(37, 99, 235, 0.08);
 }
-
 /* ---------- News ---------- */
 .news-box {
   max-height: 260px;
   overflow-y: auto;
   padding: 4px 4px 4px 2px;
 }
-
 .news-list {
   list-style: none;
   padding-left: 14px;
   margin: 0;
   border-left: 2px solid #e2e8f0;
 }
-
 .news-list li {
   position: relative;
   margin-bottom: 14px;
   padding-left: 18px;
   color: #334155;
 }
-
 .news-list li::before {
   content: "";
   position: absolute;
@@ -168,7 +146,6 @@ h3 {
   box-shadow: 0 0 0 2px #dbeafe;
   transform: translateY(-50%);
 }
-
 .news-date {
   font-family: "Courier New", Courier, monospace !important;
   color: #475569;
@@ -179,7 +156,6 @@ h3 {
   border-radius: 6px;
   font-size: 0.84em !important;
 }
-
 /* custom scrollbar */
 .news-box::-webkit-scrollbar {
   width: 8px;
@@ -195,14 +171,12 @@ h3 {
 .news-box::-webkit-scrollbar-thumb:hover {
   background: #94a3b8;
 }
-
 /* ---------- Publications ---------- */
 .pub-note {
   font-size: 0.92em !important;
   color: #64748b;
   margin-bottom: 14px;
 }
-
 .year-badge {
   display: inline-block;
   background: linear-gradient(135deg, #eff6ff 0%, #eef2ff 100%);
@@ -215,13 +189,11 @@ h3 {
   font-weight: 700;
   letter-spacing: 0.2px;
 }
-
 .pub-list {
   list-style: none;
   padding-left: 0;
   margin-top: 0;
 }
-
 .pub-card {
   margin-bottom: 16px !important;
   background: linear-gradient(180deg, #ffffff 0%, #fcfdff 100%);
@@ -231,57 +203,47 @@ h3 {
   padding: 16px 18px;
   transition: all 0.22s ease;
 }
-
 .pub-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 12px 24px rgba(15, 23, 42, 0.08);
   border-color: #d7e0ea;
 }
-
 .paper-title {
   font-size: 1.02em !important;
   font-weight: 700;
   color: #0f172a;
   margin-bottom: 6px;
 }
-
 .paper-authors {
   color: #475569;
 }
-
 .paper-venue {
   color: #334155;
   margin-top: 4px;
 }
-
 .paper-links {
   margin-top: 4px;
 }
-
 /* ---------- Lists ---------- */
 .interest-list li,
 .simple-list li {
   margin-bottom: 10px;
 }
-
 /* ---------- Two-column layout ---------- */
 .info-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 24px;
 }
-
 /* ---------- Map ---------- */
 .map-card {
   text-align: center;
 }
-
 .map-container {
   width: 250px;
   margin: 0 auto;
   text-align: center;
 }
-
 /* ---------- Top Nav Buttons ---------- */
 .quick-nav {
   position: sticky;
@@ -300,7 +262,6 @@ h3 {
   margin-bottom: 24px;
   box-shadow: 0 6px 18px rgba(15, 23, 42, 0.05);
 }
-
 .quick-nav a {
   display: inline-block;
   padding: 6px 14px;
@@ -313,7 +274,6 @@ h3 {
   text-decoration: none !important;
   transition: all 0.2s ease;
 }
-
 .quick-nav a:hover {
   background: #eff6ff;
   border-color: #93c5fd;
@@ -321,29 +281,24 @@ h3 {
   transform: translateY(-1px);
   box-shadow: 0 4px 10px rgba(37, 99, 235, 0.08);
 }
-
 /* ---------- Responsive ---------- */
 @media (max-width: 768px) {
   .section-card {
     padding: 18px 16px;
     border-radius: 14px;
   }
-
   .info-grid {
     grid-template-columns: 1fr;
     gap: 0;
   }
-
   .news-box {
     max-height: none;
   }
-
   .pub-card {
     padding: 14px 14px;
   }
 }
 </style>
-
 <nav class="quick-nav">
   <a href="#about-me">About</a>
   <a href="#news">News</a>
@@ -352,18 +307,14 @@ h3 {
   <a href="#services">Services</a>
   <a href="#internships">Internships</a>
 </nav>
-
 <div class="section-card">
   <h2 id="about-me">About Me</h2>
-
   <p class="lead-text">
-    Hi! I am <strong>Zixuan Chen (陈子璇)</strong>. I received my Ph.D. degree from the School of Computer Science and Technology, <a href="http://www.nju.edu.cn/">Nanjing University (NJU)</a> in March 2026, advised by Prof. <a href="https://is.nju.edu.cn/gy_en/main.htm">Yang Gao</a> and Assoc. Prof. <a href="https://cs.nju.edu.cn/huojing/index.htm">Jing Huo</a>. I will be joining the <a href="https://is.nju.edu.cn/">School of Intelligent Science and Technology</a>, Nanjing University (Suzhou Campus).
+    Hi! I am <strong>Zixuan Chen (陈子璇)</strong>. I received my Ph.D. degree from the School of Computer Science and Technology, <a href="http://www.nju.edu.cn/">Nanjing University (NJU)</a> in March 2026, advised by Prof. <a href="https://is.nju.edu.cn/gy_en/main.htm">Yang Gao</a> and Assoc. Prof. <a href="https://cs.nju.edu.cn/huojing/index.htm">Jing Huo</a>. I have joined the <a href="https://is.nju.edu.cn/">School of Intelligent Science and Technology</a>, Nanjing University (Suzhou Campus) as a Postdoctoral Researcher (Yuxiu Young Scholar).
   </p>
-
   <p>
     Previously, I received my B.E. and M.E. degrees from <a href="https://www.suda.edu.cn/">Soochow University</a>, School of Computer Science and Technology, under the supervision of Prof. <a href="https://ai.nju.edu.cn/zhangzongzhang/index.htm">Zongzhang Zhang</a>. From Nov. 2024 to Nov. 2025, I was a visiting student at the <a href="https://www.nus.edu.sg/">National University of Singapore (NUS)</a>, working with Prof. <a href="https://linsats.github.io/">Lin Shao</a>.
   </p>
-
   <h3 id="research-interests">🔬 Research Interests</h3>
   <p>
     My research focuses on <strong>Robot Learning</strong>, <strong>Reinforcement Learning</strong>, and <strong>Imitation Learning</strong> for embodied agents. I am particularly interested in three complementary directions, one target problem supported by two core capabilities:
@@ -373,7 +324,6 @@ h3 {
     <li><strong>Spatial Intelligence:</strong> Grounding actions in the physical world through generalizable 3D spatial perception and reasoning (e.g., geometric relations, affordances).</li>
     <li><strong>Embodied World Models:</strong> Learning generative models of environment dynamics to enable predictive planning and scalable data generation.</li>
   </ul>
-
   <div class="tag-row">
     <span class="tag-chip">Robot Learning</span>
     <span class="tag-chip">Reinforcement Learning</span>
@@ -383,11 +333,12 @@ h3 {
     <span class="tag-chip">Embodied World Models</span>
   </div>
 </div>
-
 <div class="section-card">
   <h2 id="news">🔥 News</h2>
   <div class="news-box">
     <ul class="news-list">
+      <li><span class="news-date">2026.07</span> 🏅 Recognized as a <strong>Yuxiu Young Scholar</strong> at Nanjing University.</li>
+      <li><span class="news-date">2026.07</span> Preprint "<a href="https://chenyt31.github.io/wh0.github.io/">Wh0</a>" (Generative World Models as Scalable Sources of Egocentric Human Hand Manipulation Data) was released.</li>
       <li><span class="news-date">2026.06</span> 🏅 "INHerit-SG" was selected as a <strong>Best Presentation Finalist</strong> at the <strong>ICRA 2026 Workshop on Robots Meet Prior Maps</strong>.</li>
       <li><span class="news-date">2026.06</span> 🎉 "RoboHorizon" was accepted to <strong>SCIENCE CHINA Information Sciences (SCIS)</strong>.</li>
       <li><span class="news-date">2026.06</span> 🏆 "V-Dreamer" received the <strong>Best Paper Award</strong> at the <strong>ICRA 2026 Workshop on Generative Digital Twins for Real2Sim and Sim2Real Transfer</strong>.</li>
@@ -406,11 +357,9 @@ h3 {
     </ul>
   </div>
 </div>
-
 <div class="section-card">
   <h2 id="publications">📝 Selected Publications</h2>
   <p class="pub-note">(* equal contribution)</p>
-
   <div class="year-badge">2026</div>
   <ul class="pub-list">
     <li class="pub-card">
@@ -422,7 +371,6 @@ h3 {
         <a href="https://agile-long.github.io/" class="btn-outline">🌐 Website</a>
       </div>
     </li>
-
     <li class="pub-card">
       <div class="paper-title">RoTri-Diff: A Spatial Robot-Object Triadic Interaction-Guided Diffusion Model for Bimanual Manipulation</div>
       <div class="paper-authors"><strong>Zixuan Chen</strong>, Nga Teng Chan, Yiwen Hou, Chenrui Tie, Zixuan Liu, Haonan Chen, Junting Chen, Jieqi Shi, Yang Gao, Jing Huo, Lin Shao.</div>
@@ -431,7 +379,6 @@ h3 {
         <a href="https://arxiv.org/abs/2603.07165" class="btn-outline">📄 PDF</a>
       </div>
     </li>
-
     <li class="pub-card">
       <div class="paper-title">DeCo: Task Decomposition and Skill Composition for Zero-Shot Generalization in Long-Horizon 3D Manipulation</div>
       <div class="paper-authors"><strong>Zixuan Chen</strong>, Junhui Yin, Yangtao Chen, Jing Huo, Pinzhuo Tian, Jieqi Shi, Yiwen Hou, Yinchuan Li, Yang Gao.</div>
@@ -442,7 +389,6 @@ h3 {
         <a href="https://github.com/chenzixuan99/RoboHiMan" class="btn-outline">💻 Code</a>
       </div>
     </li>
-
     <li class="pub-card">
       <div class="paper-title">ManiLong-Shot: Interaction-Aware One-Shot Imitation Learning for Long-Horizon Manipulation</div>
       <div class="paper-authors"><strong>Zixuan Chen</strong>, Chongkai Gao, Lin Shao, Jieqi Shi, Jing Huo, Yang Gao.</div>
@@ -451,7 +397,6 @@ h3 {
         <a href="https://arxiv.org/abs/2512.16302" class="btn-outline">📄 PDF</a>
       </div>
     </li>
-
     <li class="pub-card">
       <div class="paper-title">RoboHorizon: An LLM-Assisted Multi-View World Model for Long-Horizon Robotic Manipulation</div>
       <div class="paper-authors"><strong>Zixuan Chen</strong>, Jing Huo, Yangtao Chen, Yang Gao.</div>
@@ -460,7 +405,6 @@ h3 {
         <a href="https://arxiv.org/abs/2501.06605" class="btn-outline">📄 PDF</a>
       </div>
     </li>
-
     <li class="pub-card">
       <div class="paper-title">INHerit-SG: Incremental Hierarchical Semantic Scene Graphs with RAG-Style Retrieval</div>
       <div class="paper-authors">YukTung Samuel Fang, Zhikang Shi, Jiabin Qiu, <strong>Zixuan Chen</strong>, Jieqi Shi, Hao Xu, Jing Huo, Yang Gao.</div>
@@ -470,7 +414,16 @@ h3 {
         <a href="https://fangyuktung.github.io/INHeritSG.github.io/" class="btn-outline">🌐 Website</a>
       </div>
     </li>
-
+    <li class="pub-card">
+      <div class="paper-title">Wh0: Generative World Models as Scalable Sources of Egocentric Human Hand Manipulation Data</div>
+      <div class="paper-authors">Yangtao Chen*, <strong>Zixuan Chen*</strong>, Peiyang Wang*, Yong-Lu Li, Jing Huo, Jieqi Shi, Yang Gao.</div>
+      <div class="paper-venue"><em>arXiv preprint arXiv:2606.22136</em>, 2026.</div>
+      <div class="paper-links">
+        <a href="https://arxiv.org/abs/2606.22136" class="btn-outline">📄 PDF</a>
+        <a href="https://chenyt31.github.io/wh0.github.io/" class="btn-outline">🌐 Website</a>
+        <a href="https://github.com/chenyt31/Wh0" class="btn-outline">💻 Code</a>
+      </div>
+    </li>
     <li class="pub-card">
       <div class="paper-title">AdaClearGrasp: Learning Adaptive Clearing for Zero-Shot Robust Dexterous Grasping in Densely Cluttered Environments</div>
       <div class="paper-authors"><strong>Zixuan Chen*</strong>, W. Zhang*, J. Fang, R. Zeng, Z. Xu, Y. Hou, X. Wang, Jieqi Shi, Jing Huo, et al.</div>
@@ -481,7 +434,6 @@ h3 {
         <a href="https://github.com/NJU-R-L-Group-Embodied-Lab/AdaClearGrasp" class="btn-outline">💻 Code</a>
       </div>
     </li>
-
     <li class="pub-card">
       <div class="paper-title">V-Dreamer: Automating Robotic Simulation and Trajectory Synthesis via Video Generation Priors</div>
       <div class="paper-authors">Songjia He*, <strong>Zixuan Chen*</strong>, Hongyu Ding, D. Shao, Jieqi Shi, C. Li, Jing Huo, Yang Gao.</div>
@@ -490,7 +442,6 @@ h3 {
         <a href="https://arxiv.org/abs/2603.18811" class="btn-outline">📄 PDF</a>
       </div>
     </li>
-
     <li class="pub-card">
       <div class="paper-title">ST-VLA: Enabling 4D-Aware Spatiotemporal Understanding for General Robot Manipulation</div>
       <div class="paper-authors">Y. Wu*, <strong>Zixuan Chen*</strong>, C. Ou, W. Wang, W. Huang, L. Cao, Y. Chen, W. Qiu, X. Quan, et al.</div>
@@ -499,7 +450,6 @@ h3 {
         <a href="https://arxiv.org/abs/2603.13788" class="btn-outline">📄 PDF</a>
       </div>
     </li>
-
     <li class="pub-card">
       <div class="paper-title">MoMaStage: Skill-State Graph Guided Planning and Closed-Loop Execution for Long-Horizon Indoor Mobile Manipulation</div>
       <div class="paper-authors">C. Li*, <strong>Zixuan Chen*</strong>, Y. Li, J. Xu, Hongyu Ding, Jieqi Shi, Jing Huo, Yang Gao.</div>
@@ -508,7 +458,6 @@ h3 {
         <a href="https://arxiv.org/abs/2603.08383" class="btn-outline">📄 PDF</a>
       </div>
     </li>
-
     <li class="pub-card">
       <div class="paper-title">Uni-LaViRA: Language-Vision-Robot Actions Translation for Unified Embodied Navigation</div>
       <div class="paper-authors">Hongyu Ding, S. Zhang, Z. Xu, J. Guo, H. Liu, X. Cheng, <strong>Zixuan Chen</strong>, H. Qi, D. Wang, et al.</div>
@@ -518,7 +467,6 @@ h3 {
       </div>
     </li>
   </ul>
-
   <div class="year-badge">2025</div>
   <ul class="pub-list">
     <li class="pub-card">
@@ -531,7 +479,6 @@ h3 {
         <a href="https://github.com/chenyt31/RoboHiMan" class="btn-outline">💻 Code</a>
       </div>
     </li>
-
     <li class="pub-card">
       <div class="paper-title">GravMAD: Grounded Spatial Value Maps Guided Action Diffusion for Generalized 3D Manipulation</div>
       <div class="paper-authors">Yangtao Chen*, <strong>Zixuan Chen*</strong>, Junhui Yin, Jing Huo, Pinzhuo Tian, Jieqi Shi, Yang Gao.</div>
@@ -542,7 +489,6 @@ h3 {
       </div>
     </li>
   </ul>
-
   <div class="year-badge">2024</div>
   <ul class="pub-list">
     <li class="pub-card">
@@ -553,7 +499,6 @@ h3 {
         <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/ca92ff06d973ece92cecc561757d500e-Paper-Conference.pdf" class="btn-outline">📄 PDF</a>
       </div>
     </li>
-
     <li class="pub-card">
       <div class="paper-title">Cognizing and Imitating Robotic Skills via a Dual Cognition-Action Architecture</div>
       <div class="paper-authors"><strong>Zixuan Chen</strong>, Ze Ji, Shuyang Liu, Jing Huo, Yiyu Chen, Yang Gao.</div>
@@ -563,7 +508,6 @@ h3 {
       </div>
     </li>
   </ul>
-
   <div class="year-badge">2023</div>
   <ul class="pub-list">
     <li class="pub-card">
@@ -576,11 +520,11 @@ h3 {
     </li>
   </ul>
 </div>
-
 <div class="info-grid">
   <div class="section-card">
     <h2 id="honors-and-awards">🎖 Honors and Awards</h2>
     <ul class="simple-list">
+      <li><strong>2026.07</strong> Yuxiu Young Scholar (毓秀青年学者), Nanjing University</li>
       <li><strong>2026.06</strong> Best Paper Award, ICRA 2026 Workshop on Generative Digital Twins for Real2Sim and Sim2Real Transfer (V-Dreamer)</li>
       <li><strong>2026.06</strong> Best Presentation Finalist, ICRA 2026 Workshop on Robots Meet Prior Maps (INHerit-SG)</li>
       <li><strong>2023.07</strong> China Scholarship Council (CSC) Scholarship</li>
@@ -590,7 +534,6 @@ h3 {
       <li><strong>2018.10</strong> Soochow University Graduate Academic Scholarship, Second Prize</li>
     </ul>
   </div>
-
   <div class="section-card">
     <h2 id="services">💼 Services</h2>
     <ul class="simple-list">
@@ -599,14 +542,12 @@ h3 {
     </ul>
   </div>
 </div>
-
 <div class="section-card">
   <h2 id="internships">💻 Internships</h2>
   <ul class="simple-list">
     <li><strong>2019.06 - 2019.10</strong>: Research Intern at <a href="http://fuxi.netease.com/laboratory">NetEase Fuxi Lab</a>, Hangzhou, China.</li>
   </ul>
 </div>
-
 <script>
 document.querySelectorAll('.quick-nav a').forEach(function (link) {
   link.addEventListener('click', function (e) {
