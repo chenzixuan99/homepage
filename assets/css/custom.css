@@ -1,0 +1,48 @@
+/* Small extensions to the vendored Minimal Light theme. */
+a { color: #176b96; }
+a:hover { color: #043361; text-decoration: underline; }
+a:focus-visible { outline: 2px solid #176b96; outline-offset: 4px; }
+strong { font-weight: 600; }
+h2, h3 { scroll-margin-top: 24px; }
+section h2:not(:first-child) { margin-top: 30px; }
+header .image.avatar img { width: 120px; height: 120px; padding: 0; margin: 20px 0 22px; object-fit: cover; }
+header h1 { margin-bottom: 15px; }
+.chinese-name { display: block; font-family: serif; font-size: 19px; margin-top: 9px; font-weight: 400; }
+.profile-position { font-size: 18px; margin-bottom: 15px; }
+.profile-position span { font-size: 15px; }
+.profile-affiliation { font-size: 15px; line-height: 1.6; margin-bottom: 12px; }
+.profile-affiliation a { color: #595959; }
+.profile-email { font-family: 'Ubuntu Mono', monospace; font-size: 14px; }
+.profile-links { display: flex; justify-content: center; gap: 18px; margin: 18px 0; }
+.profile-links a { color: #043361; }
+.section-nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 5px 14px; font-size: 14px; margin-top: 18px; }
+.section-nav a { color: #595959; }
+.interest-list, .simple-list { padding-left: 20px; }
+.interest-list li, .simple-list li { margin-bottom: 8px; }
+.news-box { max-height: 240px; overflow-y: auto; margin-bottom: 28px; scrollbar-width: thin; }
+.news-list { padding-left: 20px; padding-right: 8px; margin-bottom: 0; }
+.news-list li { margin-bottom: 7px; }
+.news-date { font-weight: 600; color: #043361; margin-right: 7px; font-variant-numeric: tabular-nums; }
+.pub-note { font-size: 14px; margin-bottom: 16px; }
+.publications { margin-top: 0; }
+.publication-year { font-size: 18px; margin: 22px 0 14px; }
+.publications ol.bibliography li { min-height: 0; margin-bottom: 24px; }
+.publications .title { line-height: 1.4; margin-bottom: 4px; }
+.publications .author, .publications .periodical { line-height: 1.45; margin-bottom: 4px; }
+.publications .links { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 7px; }
+.publications .links a.btn { font-size: 12px; border-radius: 3px; text-decoration: none; }
+.theme-credit { margin-top: 40px; }
+.skip-link { position: absolute; left: -10000px; }
+.skip-link:focus { left: 15px; top: 10px; background: #fff; padding: 8px; z-index: 2; }
+@media (max-width: 960px) {
+  header { padding: 15px 0 25px; }
+  .section-nav { max-width: 360px; margin: 18px auto 0; }
+  section { border: 0; padding-top: 12px; }
+}
+@media print {
+  header { position: static; float: none; width: auto; padding: 0; }
+  section { float: none; width: auto; }
+  .section-nav { display: none; }
+  .news-box { max-height: none; overflow: visible; }
+  .publications li { break-inside: avoid; }
+}

@@ -1,0 +1,155 @@
+main:
+- year: 2026
+  title: 'AGiLe: Learning Robust Long-Horizon Manipulation via Affordance-Grounded Bidirectional Latent Planning'
+  authors: <strong>Zixuan Chen</strong>, Xiangrong Feng, Jieqi Shi, Lin Shao, Jing Huo, Yang Gao.
+  venue: <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2026.
+  links:
+  - label: PDF
+    url: https://openaccess.thecvf.com/content/CVPR2026/papers/Chen_AGiLe_Learning_Robust_Long-Horizon_Manipulation_via_Affordance-Grounded_Bidirectional_Latent_Planning_CVPR_2026_paper.pdf
+  - label: Website
+    url: https://agile-long.github.io/
+- year: 2026
+  title: 'RoTri-Diff: A Spatial Robot-Object Triadic Interaction-Guided Diffusion Model for Bimanual Manipulation'
+  authors: <strong>Zixuan Chen</strong>, Nga Teng Chan, Yiwen Hou, Chenrui Tie, Zixuan Liu, Haonan Chen, Junting
+    Chen, Jieqi Shi, Yang Gao, Jing Huo, Lin Shao.
+  venue: <em>IEEE International Conference on Robotics and Automation (<strong>ICRA</strong>)</em>, 2026.
+  links:
+  - label: PDF
+    url: https://arxiv.org/abs/2603.07165
+- year: 2026
+  title: 'DeCo: Task Decomposition and Skill Composition for Zero-Shot Generalization in Long-Horizon 3D Manipulation'
+  authors: <strong>Zixuan Chen</strong>, Junhui Yin, Yangtao Chen, Jing Huo, Pinzhuo Tian, Jieqi Shi, Yiwen Hou,
+    Yinchuan Li, Yang Gao.
+  venue: <em>IEEE Robotics and Automation Letters (<strong>RAL</strong>)</em>, 2026.
+  links:
+  - label: PDF
+    url: https://arxiv.org/abs/2505.00527
+  - label: Website
+    url: https://deco226.github.io/
+  - label: Code
+    url: https://github.com/chenzixuan99/RoboHiMan
+- year: 2026
+  title: 'ManiLong-Shot: Interaction-Aware One-Shot Imitation Learning for Long-Horizon Manipulation'
+  authors: <strong>Zixuan Chen</strong>, Chongkai Gao, Lin Shao, Jieqi Shi, Jing Huo, Yang Gao.
+  venue: <em>AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>)</em>, 2026.
+  links:
+  - label: PDF
+    url: https://arxiv.org/abs/2512.16302
+- year: 2026
+  title: 'RoboHorizon: An LLM-Assisted Multi-View World Model for Long-Horizon Robotic Manipulation'
+  authors: <strong>Zixuan Chen</strong>, Jing Huo, Yangtao Chen, Yang Gao.
+  venue: <em>SCIENCE CHINA Information Sciences (<strong>SCIS</strong>)</em>, 2026.
+  links:
+  - label: PDF
+    url: https://arxiv.org/abs/2501.06605
+- year: 2026
+  title: 'INHerit-SG: Incremental Hierarchical Semantic Scene Graphs with RAG-Style Retrieval'
+  authors: YukTung Samuel Fang, Zhikang Shi, Jiabin Qiu, <strong>Zixuan Chen</strong>, Jieqi Shi, Hao Xu, Jing Huo,
+    Yang Gao.
+  venue: <em>arXiv preprint arXiv:2602.12971</em>, 2026. <strong>(Best Presentation Finalist, ICRA 2026 Workshop
+    on Robots Meet Prior Maps)</strong>
+  links:
+  - label: PDF
+    url: https://arxiv.org/abs/2602.12971
+  - label: Website
+    url: https://fangyuktung.github.io/INHeritSG.github.io/
+- year: 2026
+  title: 'Wh0: Generative World Models as Scalable Sources of Egocentric Human Hand Manipulation Data'
+  authors: Yangtao Chen*, <strong>Zixuan Chen*</strong>, Peiyang Wang*, Yong-Lu Li, Jing Huo, Jieqi Shi, Yang Gao.
+  venue: <em>arXiv preprint arXiv:2606.22136</em>, 2026.
+  links:
+  - label: PDF
+    url: https://arxiv.org/abs/2606.22136
+  - label: Website
+    url: https://chenyt31.github.io/wh0.github.io/
+  - label: Code
+    url: https://github.com/chenyt31/Wh0
+- year: 2026
+  title: 'AdaClearGrasp: Learning Adaptive Clearing for Zero-Shot Robust Dexterous Grasping in Densely Cluttered
+    Environments'
+  authors: <strong>Zixuan Chen*</strong>, W. Zhang*, J. Fang, R. Zeng, Z. Xu, Y. Hou, X. Wang, Jieqi Shi, Jing Huo,
+    et al.
+  venue: <em>arXiv preprint arXiv:2603.10616</em>, 2026.
+  links:
+  - label: PDF
+    url: https://arxiv.org/abs/2603.10616
+  - label: Website
+    url: https://chenzixuan99.github.io/adaclear-grasp.github.io/
+  - label: Code
+    url: https://github.com/NJU-R-L-Group-Embodied-Lab/AdaClearGrasp
+- year: 2026
+  title: 'V-Dreamer: Automating Robotic Simulation and Trajectory Synthesis via Video Generation Priors'
+  authors: Songjia He*, <strong>Zixuan Chen*</strong>, Hongyu Ding, D. Shao, Jieqi Shi, C. Li, Jing Huo, Yang Gao.
+  venue: <em>arXiv preprint arXiv:2603.18811</em>, 2026. <strong>(Best Paper Award, ICRA 2026 Workshop on Generative
+    Digital Twins for Real2Sim and Sim2Real Transfer)</strong>
+  links:
+  - label: PDF
+    url: https://arxiv.org/abs/2603.18811
+- year: 2026
+  title: 'ST-VLA: Enabling 4D-Aware Spatiotemporal Understanding for General Robot Manipulation'
+  authors: Y. Wu*, <strong>Zixuan Chen*</strong>, C. Ou, W. Wang, W. Huang, L. Cao, Y. Chen, W. Qiu, X. Quan, et
+    al.
+  venue: <em>arXiv preprint arXiv:2603.13788</em>, 2026.
+  links:
+  - label: PDF
+    url: https://arxiv.org/abs/2603.13788
+- year: 2026
+  title: 'MoMaStage: Skill-State Graph Guided Planning and Closed-Loop Execution for Long-Horizon Indoor Mobile
+    Manipulation'
+  authors: C. Li*, <strong>Zixuan Chen*</strong>, Y. Li, J. Xu, Hongyu Ding, Jieqi Shi, Jing Huo, Yang Gao.
+  venue: <em>arXiv preprint arXiv:2603.08383</em>, 2026.
+  links:
+  - label: PDF
+    url: https://arxiv.org/abs/2603.08383
+- year: 2026
+  title: 'Uni-LaViRA: Language-Vision-Robot Actions Translation for Unified Embodied Navigation'
+  authors: Hongyu Ding, S. Zhang, Z. Xu, J. Guo, H. Liu, X. Cheng, <strong>Zixuan Chen</strong>, H. Qi, D. Wang,
+    et al.
+  venue: <em>arXiv preprint arXiv:2605.27582</em>, 2026.
+  links:
+  - label: PDF
+    url: https://arxiv.org/abs/2605.27582
+- year: 2025
+  title: 'RoboHiMan: A Hierarchical Evaluation Paradigm for Compositional Generalization in Long-Horizon Manipulation'
+  authors: Yangtao Chen*, <strong>Zixuan Chen*</strong>, Nga Teng Chan, Junting Chen, Junhui Yin, Jieqi Shi, Yang
+    Gao, Yong-Lu Li, Jing Huo.
+  venue: <em>arXiv preprint arXiv:2510.13149</em>, 2025.
+  links:
+  - label: PDF
+    url: https://arxiv.org/abs/2510.13149
+  - label: Website
+    url: https://chenyt31.github.io/robo-himan.github.io/
+  - label: Code
+    url: https://github.com/chenyt31/RoboHiMan
+- year: 2025
+  title: 'GravMAD: Grounded Spatial Value Maps Guided Action Diffusion for Generalized 3D Manipulation'
+  authors: Yangtao Chen*, <strong>Zixuan Chen*</strong>, Junhui Yin, Jing Huo, Pinzhuo Tian, Jieqi Shi, Yang Gao.
+  venue: <em>International Conference on Learning Representations (<strong>ICLR</strong>)</em>, 2025.
+  links:
+  - label: PDF
+    url: https://arxiv.org/abs/2409.20154
+  - label: Website
+    url: https://gravmad.github.io/
+- year: 2024
+  title: 'SCaR: Refining Skill Chaining for Long-Horizon Robotic Manipulation via Dual Regularization'
+  authors: <strong>Zixuan Chen</strong>, Ze Ji, Jing Huo, Yang Gao.
+  venue: <em>Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>)</em>, 2024.
+  links:
+  - label: PDF
+    url: https://proceedings.neurips.cc/paper_files/paper/2024/file/ca92ff06d973ece92cecc561757d500e-Paper-Conference.pdf
+- year: 2024
+  title: Cognizing and Imitating Robotic Skills via a Dual Cognition-Action Architecture
+  authors: <strong>Zixuan Chen</strong>, Ze Ji, Shuyang Liu, Jing Huo, Yiyu Chen, Yang Gao.
+  venue: <em>International Conference on Autonomous Agents and Multiagent Systems (<strong>AAMAS</strong>)</em>,
+    2024.
+  links:
+  - label: PDF
+    url: https://www.ifaamas.org/Proceedings/aamas2024/pdfs/p2204.pdf
+- year: 2023
+  title: 'TiLD: Third-person Imitation Learning by Estimating Domain Cognitive Differences of Visual Demonstrations'
+  authors: <strong>Zixuan Chen</strong>, Wenbin Li, Yang Gao, Yiyu Chen.
+  venue: <em>International Conference on Autonomous Agents and Multiagent Systems (<strong>AAMAS</strong>)</em>,
+    2023.
+  links:
+  - label: PDF
+    url: https://www.ifaamas.org/Proceedings/aamas2023/pdfs/p2421.pdf

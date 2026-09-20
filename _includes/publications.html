@@ -1,0 +1,22 @@
+<h2 id="publications">Selected Publications</h2>
+<p class="pub-note">(* equal contribution)</p>
+<div class="publications">
+{% assign years = site.data.publications.main | group_by: "year" %}
+{% for year in years %}
+<h3 class="publication-year">{{ year.name }}</h3>
+<ol class="bibliography">
+{% for paper in year.items %}
+<li>
+  <div class="title"><a href="{{ paper.links.first.url | escape }}">{{ paper.title | escape }}</a></div>
+  <div class="author">{{ paper.authors }}</div>
+  <div class="periodical">{{ paper.venue }}</div>
+  <div class="links">
+  {% for link in paper.links %}
+    <a class="btn btn-sm z-depth-0" href="{{ link.url | escape }}">{{ link.label | escape }}</a>
+  {% endfor %}
+  </div>
+</li>
+{% endfor %}
+</ol>
+{% endfor %}
+</div>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title | escape }} | {{ site.affiliation | escape }}</title>
+  <meta name="description" content="{{ site.description | escape }}">
+  <meta name="keywords" content="{{ site.keywords | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="icon" href="{{ site.favicon | relative_url }}" type="image/png">
+  <link rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/font.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style-no-dark-mode.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/publications-no-dark-mode.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to content</a>
+<div class="wrapper">
+  <header>
+    <a class="image avatar" href="{{ '/' | relative_url }}" aria-label="Home"><img src="{{ site.avatar | relative_url }}" alt="{{ site.title | escape }}" width="120" height="120"></a>
+    <h1>{{ site.title }} <span class="chinese-name">{{ site.name_zh }}</span></h1>
+    <p class="profile-position">{{ site.position }}<br><span>{{ site.position_detail }}</span></p>
+    <p class="profile-affiliation"><a href="{{ site.department_link }}">{{ site.department }}</a><br><a href="{{ site.affiliation_link }}">{{ site.affiliation }}</a><br><span>{{ site.location }}</span></p>
+    <a class="profile-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+    <div class="profile-links">
+      <a href="{{ site.google_scholar }}" aria-label="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i> Scholar</a>
+      <a href="{{ site.github_link }}">GitHub</a>
+    </div>
+    <nav class="section-nav" aria-label="Sections">
+      <a href="#about-me">About</a><a href="#news">News</a><a href="#publications">Publications</a><a href="#honors-and-awards">Honors</a><a href="#services">Services</a><a href="#internships">Internships</a>
+    </nav>
+  </header>
+  <section id="main-content" aria-label="Academic profile">
+    {{ content }}
+    {% if site.enable_footnote %}
+    <p class="theme-credit"><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light">Minimal Light</a> theme.</small></p>
+    {% endif %}
+  </section>
+</div>
+</body>
+</html>
